@@ -3,12 +3,9 @@ author = "Steve Bennett"
 date = 2016-08-04T15:45:54Z
 description = ""
 draft = false
-image = "https://images.unsplash.com/photo-1519389950473-47ba0277781c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MXwxMTc3M3wwfDF8c2VhcmNofDV8fHRlYW18ZW58MHx8fA&ixlib=rb-1.2.1&q=80&w=2000"
 slug = "an-api-for-teams"
 title = "An API for Teams"
-
 +++
-
 
 > “In computer programming, an Application Programming Interface (API) is a set of routine definitions, protocols, and tools for building software an applications A good API makes it easier to develop a program by providing all the building blocks, which are then put together by the programmer.”
 > -- [Wikipedia](https://en.wikipedia.org/wiki/Application_programming_interface)
@@ -36,7 +33,6 @@ At its basic level, the Team API should define:
 - The way the team delivers work items
 
 - The way the team shows progress on work items
-
 
 When your engineering team consists of multiple teams, these points need to be consistent. It's less important that the implementation is consistent, just that the Team API is.
 
@@ -73,6 +69,3 @@ At this point, I think it's worth adding a warning. Rigidly adhering to your Tea
 
 ## In closing
 A good API defines methods and protocols whilst hiding implementation. Good API are also consistent with others across a similar domain. We can use both these ideas to improve the way the wider business operates with engineering, and how engineering teams work with each other. Software engineers appreciate the consistencies and abstractions provided by API, so maybe it's time to start building Team API with these ideas in mind.
-
-
-

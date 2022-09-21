@@ -4,13 +4,10 @@ categories = ["newtothis"]
 date = 2020-04-22T13:24:21Z
 description = ""
 draft = false
-image = "https://images.unsplash.com/photo-1529473814998-077b4fec6770?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MXwxMTc3M3wwfDF8c2VhcmNofDE0fHxib29rc2hlbGZ8ZW58MHx8fA&ixlib=rb-1.2.1&q=80&w=2000"
 slug = "im-new-to-engineering-management-what-books-should-i-read"
 tags = ["newtothis"]
 title = "I'm new to Engineering Management, what books should I read?"
-
 +++
-
 
 There are so many great books that I could recommend for a new manager. Narrowing down the list has been challenging!
 
@@ -64,13 +61,6 @@ Another business novel, where we shadow a manufacturing plant manager trying to 
 
 [Accelerate](https://amzn.to/3bpJWRE) by Nicole Forsgren, Jez Humble, Gene Kim
 
-If you're not already managing a team practising Continuous Delivery, or even if you are, this book provides the science behind why these practices are so valuable to building well-performing teams. You might not learn any new techniques of how to make the change from this book (I'd recommend [Continuous Delivery][https://amzn.to/3asF396],[The DevOps Handbook](https://amzn.to/3an8Hg4) or [Site Reliability Engineering](https://amzn.to/3bxeC3m) for that), however, you will leave with an understanding of the benefits that can be gained from taking such approaches. You'll also learn about some useful starter metrics for measuring the performance of the teams you work with.
+If you're not already managing a team practising Continuous Delivery, or even if you are, this book provides the science behind why these practices are so valuable to building well-performing teams. You might not learn any new techniques of how to make the change from this book (I'd recommend [Continuous Delivery](https://amzn.to/3asF396),[The DevOps Handbook](https://amzn.to/3an8Hg4) or [Site Reliability Engineering](https://amzn.to/3bxeC3m) for that), however, you will leave with an understanding of the benefits that can be gained from taking such approaches. You'll also learn about some useful starter metrics for measuring the performance of the teams you work with.
 
-You can find more of the series at [https://stevebennett.co/2020/04/21/im-new-to-this-what-do-you-recommend/](__GHOST_URL__/2020/04/21/im-new-to-this-what-do-you-recommend/)
-
-
-
-{{< figure src="https://ir-uk.amazon-adsystem.com/e/ir?t=stevebennettc-21&l=am2&o=2&a=1491973897" >}}
-
-
-
+You can find more of the series at [https://stevebennett.co/2020/04/21/im-new-to-this-what-do-you-recommend/](https://stevebennett.co/2020/04/21/im-new-to-this-what-do-you-recommend/)

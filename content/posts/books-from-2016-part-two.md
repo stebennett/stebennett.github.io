@@ -3,12 +3,9 @@ author = "Steve Bennett"
 date = 2016-12-14T17:19:31Z
 description = ""
 draft = false
-image = "https://images.unsplash.com/photo-1547555999-14e818e09e33?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MXwxMTc3M3wwfDF8c2VhcmNofDEzfHxib29rfGVufDB8fHw&ixlib=rb-1.2.1&q=80&w=2000"
 slug = "books-from-2016-part-two"
 title = "Books from 2016 - Part Two"
-
 +++
-
 
 This is part two of my review of books I've read in 2016. [Part One can be found here](https://www.stevebennett.co/2016/12/12/books-from-2016-part-one).
 
@@ -98,6 +95,3 @@ The second half of the book details more examples around the implementation of O
 I would have liked to see more detail on the implementation of OKRs, perhaps backed up by some empirical studies into the effectiveness of the system. Whilst several well-known companies are mentioned, there's not much science to back up the claims around increased alignment, productivity and ultimate success.
 
 That said, I'd suggest it as a beginners read into the subject of OKRs and goal setting.
-
-
-

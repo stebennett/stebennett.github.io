@@ -3,12 +3,9 @@ author = "Steve Bennett"
 date = 2016-07-22T11:22:43Z
 description = ""
 draft = false
-image = "https://images.unsplash.com/photo-1554306274-f23873d9a26c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MXwxMTc3M3wwfDF8c2VhcmNofDE2fHxjb2RlfGVufDB8fHw&ixlib=rb-1.2.1&q=80&w=2000"
 slug = "an-updated-joel-test"
 title = "An updated Joel Test"
-
 +++
-
 
 Wow.
 
@@ -129,6 +126,3 @@ In my opinion, writing code on a whiteboard doesn't enable you to get a check-ma
 
 ## 12. Do you do hallway usability testing?
 I think this is still really relevant. There are lots of teams that do much, much more than this in terms of usability testing, and that's fantastic. However, I think that this should remain as an attainable minimal goal for all teams.
-
-
-

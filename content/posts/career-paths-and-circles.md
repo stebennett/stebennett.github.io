@@ -3,12 +3,9 @@ author = "Steve Bennett"
 date = 2017-08-07T16:38:15Z
 description = ""
 draft = false
-image = "https://images.unsplash.com/photo-1496205856088-91b021308c54?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MXwxMTc3M3wwfDF8c2VhcmNofDE5fHxjaXJjbGVzfGVufDB8fHw&ixlib=rb-1.2.1&q=80&w=2000"
 slug = "career-paths-and-circles"
 title = "Career Paths and Circles"
-
 +++
-
 
 I’ve been spending a fair amount of time recently reworking our career paths. Our current documents are heavily based on the work by [Radford](https://radford.aon.com/), which defines 6 levels for each job family. Whilst our career path was very well defined and comprehensive, we are finding that the documentation is a little incomprehensible and causes difficulty as people try to self-assess their position on the career path.
 

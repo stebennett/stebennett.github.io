@@ -3,12 +3,9 @@ author = "Steve Bennett"
 date = 2020-01-30T15:42:23Z
 description = ""
 draft = false
-image = "https://images.unsplash.com/photo-1543286386-713bdd548da4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MXwxMTc3M3wwfDF8c2VhcmNofDF8fGdyYXBofGVufDB8fHw&ixlib=rb-1.2.1&q=80&w=2000"
 slug = "comparing-the-performance-of-agile-teams"
 title = "Comparing the performance of agile teams"
-
 +++
-
 
 Recently I got into a conversation about measuring the performance of Engineering teams. The teams in question are following the Scrum framework and have decided to use story points for estimating the complexity of the work.
 
@@ -67,6 +64,3 @@ In this example, efforts to improve a single team's performance is likely to hav
 In conclusion, making comparisons between teams isn't inherently wrong. It can be done in a way which develops insight about the broader system and better understanding within teams about the issues that can and can't be solved locally.
 
 I have to pass a tremendous amount of credit onto [Troy Magennis](https://twitter.com/t_magennis) of [Focused Objective](https://www.focusedobjective.com/w/) for inspiring my thinking on this article. In 2019 he visited the company I worked at to teach us about statistics, estimation, forecasting and reporting. His work inspired my further discovery into this area and my thoughts on team comparisons are built upon the insights and ideas he shared with us.
-
-
-

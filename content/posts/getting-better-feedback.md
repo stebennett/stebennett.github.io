@@ -3,12 +3,9 @@ author = "Steve Bennett"
 date = 2020-02-03T17:23:33Z
 description = ""
 draft = false
-image = "https://images.unsplash.com/photo-1553877522-43269d4ea984?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MXwxMTc3M3wwfDF8c2VhcmNofDV8fGZlZWRiYWNrfGVufDB8fHw&ixlib=rb-1.2.1&q=80&w=2000"
 slug = "getting-better-feedback"
 title = "Getting better feedback"
-
 +++
-
 
 Recently, I came across the following post on Twitter.
 
@@ -32,14 +29,13 @@ So, what can we do to improve the feedback we give? Or to help those we're askin
 To get actionable feedback, we need to provide context to dampen the internal assumptions. Provide the person you're asking feedback from with: 
 
 - High-level information about the career plan or aspirations your working on, for example, "I'm working towards being able to take the role of a Software Architect in the future"
+
 - Context around the specific areas you'd like feedback on - "To achieve this, I'm looking for feedback on how I can improve the way I communicate our technical choices."
+
 - Details about the goals you're working on - "This quarter, I wanted to reduce our technical debt by 25%."
 
 In these recommendations I'm making the assumptions you're asking for your own feedback, you should modify as necessary if you're asking on behalf of someone else.
 
-By providing this framing, the person being asked for feedback is more likely to give you precise, actionable feedback based on your goals and aspirations rather than their own ideas of what you should be aiming for.&nbsp;
+By providing this framing, the person being asked for feedback is more likely to give you precise, actionable feedback based on your goals and aspirations rather than their own ideas of what you should be aiming for.
 
 Furthermore, by adding a constraint, I've found that it becomes easier for people to give critical or constructive feedback, as you've invited them to comment on an area you've probably already identified that you want to improve.
-
-
-

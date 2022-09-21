@@ -3,12 +3,10 @@ author = "Steve Bennett"
 date = 2015-08-04T08:09:39Z
 description = ""
 draft = false
-image = "https://images.unsplash.com/photo-1585909695284-32d2985ac9c0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MXwxMTc3M3wwfDF8c2VhcmNofDF8fHJldmlld3xlbnwwfHx8&ixlib=rb-1.2.1&q=80&w=2000"
 slug = "book-review-extreme-programming-explained"
 title = "Book Review: Extreme Programming Explained"
 
 +++
-
 
 I'm lucky enough, at least in my opinion, to work in a team that values extreme programming practices. It's not true of every team at eBay, but it's a growing trend. Extreme Programming (XP) is something I'm comfortable with, and I hope to help other teams see the benefits, and start to put some of the practices into play.
 

@@ -3,12 +3,9 @@ author = "Steve Bennett"
 date = 2019-09-20T15:59:43Z
 description = ""
 draft = false
-image = "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MXwxMTc3M3wwfDF8c2VhcmNofDN8fGJsb2d8ZW58MHx8fA&ixlib=rb-1.2.1&q=80&w=2000"
 slug = "9-months-really"
 title = "9 months! Really?"
-
 +++
-
 
 It's been almost nine months since my last blog entry. I've never been a prolific writer as you can see this in the gaps between posts. I think I've found the reason why.
 
@@ -20,11 +17,8 @@ I feel seen.
 
 Each time I've thought about writing a post, the idea comes into my head, I make a start and then it doesn't get finished. Or in the rare case it does get published it takes me hours or weeks of refinement and editing.
 
-Each time I go round this loop, turning my next idea into text becomes harder to do.&nbsp;
+Each time I go round this loop, turning my next idea into text becomes harder to do.
 
 I'm not about to say I'm a changed man and that you can expect daily posts. However, I will aim to work more quickly, worrying less about getting the content *just right* before hitting publish.
 
 And as case in point, this post only took me 10 minutes from idea to publishing. Start as you mean to go on.
-
-
-

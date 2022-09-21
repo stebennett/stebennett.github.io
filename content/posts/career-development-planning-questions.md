@@ -3,12 +3,9 @@ author = "Steve Bennett"
 date = 2017-02-27T12:00:02Z
 description = ""
 draft = false
-image = "https://images.unsplash.com/photo-1535813547-99c456a41d4a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MXwxMTc3M3wwfDF8c2VhcmNofDl8fHF1ZXN0aW9uc3xlbnwwfHx8&ixlib=rb-1.2.1&q=80&w=2000"
 slug = "career-development-planning-questions"
 title = "Career Development Planning Questions"
-
 +++
-
 
 Part of the role of an Engineering Manager is to help others to achieve their career aspirations. However, it's not always easy for people to articulate the direction they hope their career will take them. For some, it can be difficult to describe their ideal future role, or to answer that "where will you be in 5 years time?" question.
 
@@ -124,6 +121,3 @@ If you want to run a similar session, I've included the questions I ask below. I
 - What's going to stop you from achieving your aspirations?
 
 - Who's going to stop you from achieving your aspirations?
-
-
-

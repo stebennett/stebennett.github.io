@@ -3,12 +3,9 @@ author = "Steve Bennett"
 date = 2014-03-06T15:14:23Z
 description = ""
 draft = false
-image = "https://images.unsplash.com/photo-1524481905007-ea072534b820?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MXwxMTc3M3wwfDF8c2VhcmNofDh8fHNwaWRlcm1hbnxlbnwwfHx8&ixlib=rb-1.2.1&q=80&w=2000"
 slug = "a-tester-in-development"
 title = "A tester in development"
-
 +++
-
 
 Ben has superpowers. He's no different to any of us in that way.
 
@@ -43,6 +40,3 @@ We're not trying to turn our engineers into industry leading testers as I think 
 What we are trying to do is to make sure that everyone is able to develop as a well rounded engineer. Ben will improve his development skills through pairing and the rest of us will improve in the activity of testing.
 
 Recently Ben published a [blog post](http://testjutsu.com/2014/02/plus1-for-testers-in-dev/) about what it was like to work in a development team. Unsurprisingly for us, he gave it a big thumbs up. I'd echo this sentiment - especially when you have people like Ben who are willing to put their superpowers to good use in the right way.
-
-
-

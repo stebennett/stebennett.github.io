@@ -3,14 +3,12 @@ author = "Steve Bennett"
 date = 2017-02-17T14:07:03Z
 description = ""
 draft = false
-image = "https://images.unsplash.com/photo-1518893494013-481c1d8ed3fd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MXwxMTc3M3wwfDF8c2VhcmNofDEyfHxqb2JzfGVufDB8fHw&ixlib=rb-1.2.1&q=80&w=2000"
 slug = "finding-great-places-to-work"
 title = "Finding great places to work"
 
 +++
 
-
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">There are few truly great places to work, therefore you should aim for a place that gives you the freedom to make it great.</p>&mdash; Steve Bennett 💙 (@stevebennett) <a href="https://twitter.com/stevebennett/status/832566920012521473?ref_src=twsrc%5Etfw">February 17, 2017</a></blockquote>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">There are few truly great places to work, therefore you should aim for a place that gives you the freedom to make it great.</p>&mdash; Steve Bennett (@stevebennett) <a href="https://twitter.com/stevebennett/status/832566920012521473?ref_src=twsrc%5Etfw">February 17, 2017</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 Early today I tweeted this, and I thought it was worth giving a little more detail as to what was underlying this pithy sound-bite.
@@ -26,6 +24,3 @@ What’s clear in every change I’ve made, is that there are very few (in fact,
 Therefore, if there really is few great places to work, then it’s likely that you’ll end up at the ones that aren’t so great. If this is the case, what matters more is whether you have the freedom to drive the place to be great.
 
 So, rather than assessing your next position on how good the team currently is, look at how likely it is that you’ll get the opportunity to make them better. A team that has a track record of inspecting and adapting, and can acknowledge its problems, is likely to be a better long term fit than the team that already believes it has achieved “great” status.
-
-
-

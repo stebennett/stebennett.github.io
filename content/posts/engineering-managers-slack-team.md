@@ -3,12 +3,10 @@ author = "Steve Bennett"
 date = 2016-08-10T13:57:10Z
 description = ""
 draft = false
-image = "https://images.unsplash.com/photo-1496200186974-4293800e2c20?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MXwxMTc3M3wwfDF8c2VhcmNofDJ8fHNsYWNrfGVufDB8fHw&ixlib=rb-1.2.1&q=80&w=2000"
 slug = "engineering-managers-slack-team"
 title = "Engineering Managers Slack Team"
 
 +++
-
 
 ### 🗣 Calling all Engineering Managers! 🗣
 Engineering Management can be an incredibly lonely place. This is especially true if you are new to the role.

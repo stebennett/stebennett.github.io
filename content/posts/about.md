@@ -3,14 +3,9 @@ author = "Steve Bennett"
 date = 2017-08-17T15:15:51Z
 description = ""
 draft = false
-image = "__GHOST_URL__/content/images/2021/02/IMG_20190927_190059-2.jpg"
 slug = "about"
 title = "Steve Bennett - Engineering Leader"
-
 +++
-
-
-{{< figure src="__GHOST_URL__/content/images/2021/02/IMG_20190927_190059-3.jpg" >}}
 
 Steve is people focussed engineering leader. He is passionate about helping teams to develop products using clean, test driven code. Steve has worked in multiple engineering teams, all sharing the same passions of good code, agile development and great products.
 
@@ -31,8 +26,3 @@ After a change in leadership later in the year, he left to become an Engineering
 Outside of work, Steve is an avid football fan and a season ticket holder at [Reading FC](http://www.readingfc.co.uk). He is also a runner, and has completed races at distances between 10km and half marathon.
 
 Steve can be found on twitter [@stevebennett](https://www.twitter.com/stevebennett) or contacted directly by email at [hello@stevebennett.co](mailto:hello@stevebennett.co)
-
-[Disclaimer](__GHOST_URL__/disclaimer/)
-
-
-

@@ -3,12 +3,9 @@ author = "Steve Bennett"
 date = 2016-12-12T11:55:36Z
 description = ""
 draft = false
-image = "https://images.unsplash.com/photo-1468779036391-52341f60b55d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MXwxMTc3M3wwfDF8c2VhcmNofDIyfHxib29rfGVufDB8fHw&ixlib=rb-1.2.1&q=80&w=2000"
 slug = "books-from-2016-part-one"
 title = "Books from 2016 - Part One"
-
 +++
-
 
 At the start of 2016, I made a resolution to read more. I managed to do this, and read more this year than I've been able to do in recent years. Most of my choices have been leadership or management books, or those related to sport. It's also been mostly non-fiction.
 
@@ -101,6 +98,3 @@ The story of how Elon Musk left South Africa, emigrating to the US and ended up 
 The book covers the life of Musk well, however it is at times a little bit fanatic in it's love for all things Musk. The hard topics such as his relationship with his father, his divorce and the way he manages the companies aren't explored in detail. Doing so, would have created a more complete view of the man and his ambitions.
 
 Because of these missing details, you're left wondering whether this is a true recount of the achievements of Musk.
-
-
-

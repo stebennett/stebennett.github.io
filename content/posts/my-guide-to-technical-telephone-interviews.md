@@ -3,12 +3,9 @@ author = "Steve Bennett"
 date = 2015-09-18T08:28:59Z
 description = ""
 draft = false
-image = "https://images.unsplash.com/photo-1460794418188-1bb7dba2720d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MXwxMTc3M3wwfDF8c2VhcmNofDR8fHBob25lJTIwY2FsbHxlbnwwfHx8&ixlib=rb-1.2.1&q=80&w=2000"
 slug = "my-guide-to-technical-telephone-interviews"
 title = "My guide to technical telephone interviews"
-
 +++
-
 
 Such is my life at the moment, I started writing this article on my smartphone whilst commuting home from work. The reason for this? I'm busy at the moment because my team is hiring.
 
@@ -39,6 +36,3 @@ During my interview for eBay, I was asked a rather strange question - “how wou
 Once I know the candidates favourite programming language, I continue with some technical questions based on it. Usually it’s in a language I know fairly well, so I can make a judge whether the person on the other end of the line knows their stuff. However, as well as knowing the intricacies of their favourite programming language, I’m listening to how well they explain concepts to me. The key thing with this section is for the interview to retain it’s conversation feel. I don’t want to turn it into a Java pop-quiz.
 
 From here, I move onto a couple of questions around data-structures. It’s fairly easy to guide the conversation from the programming language specifics to generic data-structures. For example if we’re talking about Javascript, I use dictionaries as a segue. This is the computer science theoretical part of the interview. Most candidates are digging deep in their memories for this stuff, and I’m therefore not too bothered whether they can quote the big-O notation for a binary tree perfectly. However, I do expect candidates to be able to compare data-structure efficiency, and demonstrate that they know when to use which one.
-
-
-

@@ -2,7 +2,7 @@
 author = "Steve Bennett"
 date = 2014-11-07T20:28:53Z
 description = ""
-draft = false
+draft = true
 image = "__GHOST_URL__/content/images/2021/02/5ed38-img.gif"
 slug = "oredev-2014-day-one"
 title = "Øredev 2014 - Day One"

@@ -3,12 +3,10 @@ author = "Steve Bennett"
 date = 2016-01-26T10:42:22Z
 description = ""
 draft = false
-image = "https://images.unsplash.com/photo-1494599948593-3dafe8338d71?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MXwxMTc3M3wwfDF8c2VhcmNofDJ8fGNoZWNrbGlzdHxlbnwwfHx8&ixlib=rb-1.2.1&q=80&w=2000"
-slug = "what-is-acceptance-criteria"
+slug = "what-are-acceptance-criteria"
 title = "What are Acceptance Criteria?"
 
 +++
-
 
 How do you know when something is "Done"?
 
@@ -115,6 +113,3 @@ This acceptance criteria stands out because it doesn’t really add anything spe
 You shouldn’t be afraid of extracting acceptance criteria to your DoD when you see repetition. Just as you’d apply [DRY](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself) to your code, you should apply it to your stories. Promoting acceptance criteria to your DoD enables you to focus your conversations around the specifics of a feature, which will lead to more valuable insights.
 
 In this article we’ve seen how just defining a user story isn’t enough to describe what it is you need to implement. You need to go deeper, asking the key “what-if” questions about the user journey, context and behaviours of the feature. As soon as you start to discuss the feature, you’ll start to tease out requirements from the assumptions, which you can document as your acceptance criteria. Having a clear set of acceptance improves the chance that the whole team is clear on the scope of the implementation. Finally, for those acceptance criteria that you see again and again, then promote them to your Defintion of Done.
-
-
-

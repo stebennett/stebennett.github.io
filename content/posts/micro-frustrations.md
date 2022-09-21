@@ -3,12 +3,9 @@ author = "Steve Bennett"
 date = 2016-09-23T15:59:08Z
 description = ""
 draft = false
-image = "https://images.unsplash.com/photo-1612620486050-1462932b56e4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MXwxMTc3M3wwfDF8c2VhcmNofDR8fHNtYWxsfGVufDB8fHw&ixlib=rb-1.2.1&q=80&w=2000"
 slug = "micro-frustrations"
 title = "Micro-Frustrations"
-
 +++
-
 
 What are the little things that annoy you in your current role?
 
@@ -17,7 +14,6 @@ What are the things, that when they get in the way, make your job just 10% more 
 If your workplaces have been anything like mine, I bet there's at least one thing that you can come up with that annoys you. Even if it is something little.
 
 Let’s look at an example. These are the kind of annoyances I’ve come up against in previous workplaces.
-
 
 - Having to use a "special" laptop to access holiday requests.
 
@@ -45,6 +41,3 @@ A common question I ask in one-on-ones is “what do you find frustrating?”, o
 Sometimes, this involves hacking round the systems. Need a new laptop power cord that IT won’t buy? Ok, we’ll buy one and expense it, and in parallel I’ll work with IT to get some sensible policies in place for the future. Air conditioning not working? Right. Work from home and I’ll deal with facilities to get it fixed.
 
 Being a manager is about helping your people to do their best work, even if sometimes that means doing things to resolve things which may seem insignificant at first. Don’t allow micro-frustrations to persist, and don’t allow them to come together to form something a lot bigger.
-
-
-

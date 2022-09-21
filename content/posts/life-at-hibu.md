@@ -3,12 +3,9 @@ author = "Steve Bennett"
 date = 2014-02-23T16:00:42Z
 description = ""
 draft = false
-image = "__GHOST_URL__/content/images/2021/02/4c34c-4315283109_5d6d27ce3b_b-1.jpg"
 slug = "life-at-hibu"
 title = "Life at hibu"
-
 +++
-
 
 This post has been sitting in my drafts folder for almost a year now, and the relaunch of my blog is a great opportunity to get it out there.
 
@@ -55,6 +52,3 @@ Looking back now it's easy to say that it was all mapped out there from the star
 Whilst we released more often, the changes we made seemed to have less of an impact. The visitor numbers increased but I don't think it was through the things we implemented. It was our persistence to improving our search engine rankings that I believe caused the spike in visitors.
 
 I'm not bitter about my time at hibu. As I said, I learnt a lot whilst I was working there and met people who I can now count as friends. I'm not sure what the future brings for hibu, but I hope that the people I've worked with get to do whatever is best for them.
-
-
-

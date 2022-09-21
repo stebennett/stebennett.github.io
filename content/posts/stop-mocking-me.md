@@ -3,12 +3,10 @@ author = "Steve Bennett"
 date = 2015-02-27T15:44:40Z
 description = ""
 draft = false
-image = "https://images.unsplash.com/photo-1587620962725-abab7fe55159?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MXwxMTc3M3wwfDF8c2VhcmNofDd8fGNvZGV8ZW58MHx8fA&ixlib=rb-1.2.1&q=80&w=2000"
 slug = "stop-mocking-me"
 title = "Stop mocking me"
 
 +++
-
 
 Unit testing can be hard. And it gets harder when you have to test code with with external dependencies. The way you deal with this will depend on whether you are a [classical or mockist programmer](http://martinfowler.com/articles/mocksArentStubs.html#ClassicalAndMockistTesting). Most people don't exist at the extremes, but instead are somewhere along the line. This isn't a bad thing. Being pragmatic in your decisions shows that you're a [mature engineer](http://www.sbio.me/blog/2015/1/26/thinking-about-senior-engineers).
 
@@ -61,6 +59,3 @@ The concept of a "unit" is on a sliding scale. Some people may tell you differen
 And one final thought, I've added the use of [PowerMock](https://code.google.com/p/powermock/) to the list of "[code smells](http://en.wikipedia.org/wiki/Code_smell)". If I ever find myself reaching for it, I take a step back and look for the underlying problems.
 
 Of course, I'm making all these statements without knowing the code in question. I'm showing no respect to the context. So, with this in mind, you should just ignore everything you've just read.
-
-
-

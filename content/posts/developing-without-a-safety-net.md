@@ -3,12 +3,9 @@ author = "Steve Bennett"
 date = 2015-12-16T13:38:21Z
 description = ""
 draft = false
-image = "https://images.unsplash.com/photo-1590641531752-464ff3b0056c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MXwxMTc3M3wwfDF8c2VhcmNofDl8fHRpZ2h0cm9wZXxlbnwwfHx8&ixlib=rb-1.2.1&q=80&w=2000"
-slug = "testing-without-a-safety-net"
+slug = "developing-without-a-safety-net"
 title = "Developing without a Safety Net"
-
 +++
-
 
 Recently, an article about the [changes to the development process at Yahoo](http://spectrum.ieee.org/view-from-the-valley/computing/software/yahoos-engineers-move-to-coding-without-a-net) caught my eye. In a move to improve quality, speed and efficiency, Yahoo removed the "QA Team" from their development process. According to the article, the change resulted in an increased focus on automation. Checks previously completed by "error-prone" humans were now done by code. If the checks passed, the code went live.
 
@@ -35,6 +32,3 @@ That's why I like to ensure that the teams I work with also include testers. I d
 I'm not advocating the use of gated processes and QA sign-offs. I don't like throwing software over the wall, and I don't like QA as gatekeepers to production. I think Yahoo has moved in the right direction and it's great if it's working for them.
 
 Personally, I wouldn't advocate removing all testers from your process, as it risks throwing the [baby out with the bath water](https://en.wikipedia.org/wiki/Don%27t_throw_the_baby_out_with_the_bathwater).
-
-
-

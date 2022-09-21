@@ -3,12 +3,10 @@ author = "Steve Bennett"
 date = 2014-06-26T07:52:21Z
 description = ""
 draft = false
-image = "https://images.unsplash.com/photo-1544819667-9bfc1de23d4e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MXwxMTc3M3wwfDF8c2VhcmNofDN8fGdvYWxzfGVufDB8fHw&ixlib=rb-1.2.1&q=80&w=2000"
 slug = "using-goals-for-effective-iterations"
 title = "Setting goals for effective iterations"
 
 +++
-
 
 All agile teams building software do it every day. The time might vary. Ours is at 9.45am. Some do it just before lunch, others at the end of the day but if you're working in an agile team, it's likely that you have a daily stand-up.
 
@@ -81,6 +79,3 @@ Sprint goals are an important and sometimes overlooked part of the agile develop
 More importantly, they set the direction for a team. Everyone has a single simple question that they can use to check there bearings, and ensure we're all going in the same direction.
 
 > Is this moving us towards our sprint goal?
-
-
-

@@ -3,13 +3,10 @@ author = "Steve Bennett"
 date = 2015-01-18T17:36:11Z
 description = ""
 draft = false
-image = "https://images.unsplash.com/photo-1515817119747-b034bebcf7ad?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MXwxMTc3M3wwfDF8c2VhcmNofDE0fHxidWd8ZW58MHx8fA&ixlib=rb-1.2.1&q=80&w=2000"
 slug = "you-can-keep-your-bug-tracker-just-use-it-less"
 title = "You can keep your bug-tracker, just use it less!"
 
 +++
-
-
 I recently published an article on my blog titled ["You don't need a bug tracker"](http://www.stevebennett.co/blog/2015/1/15/you-dont-need-a-bug-tracker). This article was also syndicated on [DZone](http://css.dzone.com/articles/you-dont-need-bug-tracker). Following the publication I received some feedback on it's contents. I'd like to take this opportunity to clear up a few things.
 
 ## The title
@@ -52,6 +49,3 @@ This is not a new concept to the team, they already ensure that there are no kno
 Over the coming months, I'll be blogging about the experiments we run to try and achieve this. I'll write about the things that work for us, and also the things that don't.
 
 So, you don't need to drop you bug tracker. You might find yourself using it less though.
-
-
-

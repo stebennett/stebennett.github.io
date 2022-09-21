@@ -3,12 +3,10 @@ author = "Steve Bennett"
 date = 2015-11-26T16:32:29Z
 description = ""
 draft = false
-image = "https://images.unsplash.com/photo-1494989729081-eb6f69bb1132?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MXwxMTc3M3wwfDF8c2VhcmNofDQxfHxuYXZpZ2F0aW9ufGVufDB8fHw&ixlib=rb-1.2.1&q=80&w=2000"
 slug = "navigation-and-pair-programming"
 title = "Navigation and Pair Programming"
 
 +++
-
 
 I’ve become a bit of a fan of pair programming over the years. I enjoy working through problems with another developer, as I find it usually leads to a deeper understanding of the problem, the domain and the improves the quality of the code that is produced. I also almost always learn something.
 
@@ -41,6 +39,3 @@ We’ll continue the pairing session as long as there are tasks on my notepad wh
 Once we’ve hit all the checkpoints, we’ll conduct a final review of the session acceptance criteria to ensure we really have reach the destination we were aiming for. If we’re at the right place, then we’re done with the pairing session.
 
 For me, the journey analogy works quite well, especially when we consider the “driver” and “navigator” roles. Treating the pairing session in this way helps to focus the pair on the destination, and keeps both from wandering off track and ending up somewhere they didn’t want to be (often with a long drive back to the original destination).
-
-
-

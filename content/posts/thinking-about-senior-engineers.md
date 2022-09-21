@@ -3,12 +3,10 @@ author = "Steve Bennett"
 date = 2015-01-26T14:00:29Z
 description = ""
 draft = false
-image = "https://images.unsplash.com/photo-1571171637578-41bc2dd41cd2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MXwxMTc3M3wwfDF8c2VhcmNofDN8fHNvZnR3YXJlfGVufDB8fHw&ixlib=rb-1.2.1&q=80&w=2000"
 slug = "thinking-about-senior-engineers"
 title = "Thinking about Senior Engineers"
 
 +++
-
 
 What makes a person a Senior Software Engineer? Is it their technical knowledge? The amount of languages, libraries or development techniques they know? Or maybe it's just an indicator of the number of years experience they have?
 
@@ -43,6 +41,3 @@ I'm not the only one that believes that your attitude is important if you want t
 In John's piece, he describes attributes of mature engineers, and the impact they have on an organisation. He includes the ["10 Commandments of Egoless Programming"](http://blog.codinghorror.com/the-ten-commandments-of-egoless-programming/) from Jerry Weinberg's book [The Psychology of Computer Programming](http://www.amazon.co.uk/gp/product/B00I62L6UC/ref=as_li_tl?ie=UTF8&amp;camp=1634&amp;creative=19450&amp;creativeASIN=B00I62L6UC&amp;linkCode=as2&amp;tag=bennettweb-21&amp;linkId=THN6MXWNOAVKHD3N). This short, punchy list is a great place to start for anyone aiming to be a senior or mature engineer. I haven't read the book yet, but I've added it to my list.
 
 So, take care with the way you act. Don't be the elusive coder in the corner, and drop the ego. Becoming a senior engineer is more than knowing the technical side. You need to understand that the most effective engineers know how to work with people. If you can achieve this, then people will want to work with you. And if you can do this, then you're well on your way to becoming a Senior Engineer.
-
-
-

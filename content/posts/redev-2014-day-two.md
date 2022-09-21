@@ -2,13 +2,11 @@
 author = "Steve Bennett"
 date = 2014-11-12T15:07:37Z
 description = ""
-draft = false
+draft = true
 image = "__GHOST_URL__/content/images/2021/02/5ed38-img-1.gif"
 slug = "redev-2014-day-two"
 title = "Øredev 2014 - Day Two"
-
 +++
-
 
 This is the second in a three part series giving an overview of the sessions I attended at Øredev 2014. Part one of the series can be found [here](__GHOST_URL__/2014/11/7/oredev-2014-day-one).
 

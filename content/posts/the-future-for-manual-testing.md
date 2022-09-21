@@ -3,12 +3,9 @@ author = "Steve Bennett"
 date = 2015-02-09T14:18:01Z
 description = ""
 draft = false
-image = "https://images.unsplash.com/photo-1544731612-de7f96afe55f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MXwxMTc3M3wwfDF8c2VhcmNofDEzfHxjb21wdXRlcnxlbnwwfHx8&ixlib=rb-1.2.1&q=80&w=2000"
 slug = "the-future-for-manual-testing"
 title = "The future for manual testing"
-
 +++
-
 
 Is being a manual tester a dead-end career as [@jsonmez](http://www.twitter.com/jsonmez) says in his video response for Simple Programmer?
 
@@ -29,6 +26,3 @@ I think, and I hope, that checking is what John is talking about. One can argue 
 Testing is so much more than that. My current team writes unit and acceptance tests, which are in fact checks on the functionality we're building. They're pretty much all automated and they're written by our developers. This frees our testers up to do what they do best. The testers can go deep into the product, run experiments and make new discoveries about the things we're building. I find that allowing testers to do this adds more value to the team.
 
 In some of the comments on his [Simple Programmer post](http://simpleprogrammer.com/2015/01/15/manual-testing-future/), John refers to the view in the corporate world between developers and testers. He also comments that developers tend to earn more, as testers reach a glass ceiling. Unfortunately, this will be the case if the organisation shares John's view that all testing results in a Pass or Fail from a check.
-
-
-

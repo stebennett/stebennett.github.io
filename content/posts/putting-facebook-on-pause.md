@@ -3,12 +3,9 @@ author = "Steve Bennett"
 date = 2014-02-25T14:51:41Z
 description = ""
 draft = false
-image = "https://images.unsplash.com/photo-1555020368-9e1b4cf78a52?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MXwxMTc3M3wwfDF8c2VhcmNofDl8fGZhY2Vib29rfGVufDB8fHw&ixlib=rb-1.2.1&q=80&w=2000"
 slug = "putting-facebook-on-pause"
 title = "Putting Facebook on Pause"
-
 +++
-
 
 In the week that [Facebook turned 10,](http://www.theguardian.com/technology/2014/feb/04/facebook-10-years-mark-zuckerberg) I decided to rethink my own use of the social network.
 
@@ -27,6 +24,3 @@ To improve the relationships with people I care about I've decided to put Facebo
 No longer lurking, I'm going to have to put in some work to maintain these relationships. And it's work that I want to do to get more out of them.
 
 I'm not closing the door on returning to Facebook in the future, but for now I won't be available through this channel. I might come back one day, but by then who knows - maybe my friends will have hit pause as well?
-
-
-

@@ -3,12 +3,9 @@ author = "Steve Bennett"
 date = 2017-06-12T19:35:11Z
 description = ""
 draft = false
-image = "https://images.unsplash.com/photo-1483546416237-76fd26bbcdd1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MXwxMTc3M3wwfDF8c2VhcmNofDN8fG5vdGVzfGVufDB8fHw&ixlib=rb-1.2.1&q=80&w=2000"
 slug = "lead-dev-london-2017-field-report"
 title = "Lead Dev London 2017 Field Report"
-
 +++
-
 
 I was fortunate enough to spend the last couple of days at [Lead Developer 2017](http://2017.theleaddeveloper.com) in London. The conference has been described as a leadership and management conference dressed up as a technical conference. It’s one of my “must-attend” conferences of the year.
 
@@ -27,6 +24,3 @@ This was the third year of Lead Dev in London, and my third year in attending. E
 Leadership and management is a craft. Moving from a senior developer to a technical manager is a career shift, not a promotion. Events like Lead Dev give me a chance to interact with others who have reset their career and to continue hone my craft. It also gives me the chance to hear about the challenges that others face and build out a network of folks going through similar things to myself.
 
 Lead Dev London 2018 was announced (although no dates yet), along with further events in New York and Austin. More information about the conference, including speaker bios, schedule and event notification can be found on the [Lead Dev website](http://2017.theleaddeveloper.com/).
-
-
-

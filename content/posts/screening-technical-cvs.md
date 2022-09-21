@@ -3,12 +3,9 @@ author = "Steve Bennett"
 date = 2015-06-23T10:53:36Z
 description = ""
 draft = false
-image = "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MXwxMTc3M3wwfDF8c2VhcmNofDV8fHJlc3VtZXxlbnwwfHx8&ixlib=rb-1.2.1&q=80&w=2000"
 slug = "screening-technical-cvs"
 title = "Screening technical CVs"
-
 +++
-
 
 Recently I've been spending a great deal of time screening technical CVs. What struck me during this process is generally how bad engineering CVs are.
 
@@ -43,6 +40,3 @@ All these things are more important to me than a list of languages, frameworks o
 Most smart people can pick up new languages or technologies, so what you've worked with in the past isn't as important to me. The problems you've solved, the things you've achieved and the way that you achieved is.
 
 So, let your CV tell me what you want to work on, how you want to do it, and why you want to work this way. Make me pick up the phone.
-
-
-

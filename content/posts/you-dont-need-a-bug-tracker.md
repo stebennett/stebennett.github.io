@@ -3,12 +3,10 @@ author = "Steve Bennett"
 date = 2015-01-15T11:20:27Z
 description = ""
 draft = false
-image = "https://images.unsplash.com/photo-1536427824649-fbf2e4a33d40?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MXwxMTc3M3wwfDF8c2VhcmNofDJ8fGJ1Z3xlbnwwfHx8&ixlib=rb-1.2.1&q=80&w=2000"
 slug = "you-dont-need-a-bug-tracker"
 title = "You don't need a bug-tracker"
 
 +++
-
 
 If you're writing software, chances are you use some sort of issue tracking tool. Or to be more precise, you most likely have a bug tracker. Jira, Bugzilla, heck, even an Excel spreadsheet. If you're diligent every time you find a bug you'll create a ticket in the tool. Most bug-tracking tools will guide you to add a severity and assign a priority. The aim of classifying a defect in this way is to help you know what to work on next. In most systems, the two aren't related. This means you can create defects with "Critical" severity, assigned a "Low priority".
 
@@ -102,6 +100,3 @@ My current team has a engineer with a test specialism (software engineer in test
 So, drop your bug-tracking tool.
 
 Or at least stop stock-piling defects that you don't plan to fix. If you find a defect, make the decision - Fix it or Close it.
-
-
-

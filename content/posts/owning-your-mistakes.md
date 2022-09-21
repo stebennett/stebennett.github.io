@@ -3,12 +3,9 @@ author = "Steve Bennett"
 date = 2017-07-30T16:03:08Z
 description = ""
 draft = false
-image = "https://images.unsplash.com/photo-1565184944956-70a161db60f4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MXwxMTc3M3wwfDF8c2VhcmNofDN8fG1pc3Rha2V8ZW58MHx8fA&ixlib=rb-1.2.1&q=80&w=2000"
 slug = "owning-your-mistakes"
 title = "Owning your mistakes"
-
 +++
-
 
 I believe that one of the most powerful things you can do as a leader is to own your mistakes. Nobody is perfect, and therefore it’s inevitable that you will make mistakes. Often, holding a leadership or management position means that these mistakes are magnified and have a impact on many more people.
 
@@ -57,6 +54,3 @@ Importantly, follow up your apology with a clear plan showing how you’ve learn
 Last week, I hosted a talk at our department all-hands. During one session, I needed to talk about a new team being set up in the group. I’d had feedback that my approach in building this new team lacked transparency which in turn enabled the rumour mill to go into overdrive.
 
 I opened this talk with an apology for the lack of clarity and transparency in staffing the new team. Following the all-hands, I was stopped by one of our engineers who gave me feedback that it was one of the first times that he’d seen a leader admit a mistake, and that in doing so I’d shown my authenticity. He also offered himself up to help me in opening up decision making more. Had I taken another route, either by denying the issue, attempting to explain it away or worse of all, thrown someone else under the bus, I’d doubt that anything else I said that day would have been heard.
-
-
-

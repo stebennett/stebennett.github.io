@@ -3,12 +3,9 @@ author = "Steve Bennett"
 date = 2016-06-25T08:09:49Z
 description = ""
 draft = false
-image = "https://images.unsplash.com/photo-1594810205183-18a8b0ce6c13?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MXwxMTc3M3wwfDF8c2VhcmNofDd8fGV1fGVufDB8fHw&ixlib=rb-1.2.1&q=80&w=2000"
 slug = "living-in-the-echo-chamber"
 title = "Living in the Echo Chamber"
-
 +++
-
 
 Yesterday was a momentous day in British history.
 

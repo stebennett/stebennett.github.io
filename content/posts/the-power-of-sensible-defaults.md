@@ -3,12 +3,9 @@ author = "Steve Bennett"
 date = 2017-07-24T19:41:44Z
 description = ""
 draft = false
-image = "https://images.unsplash.com/photo-1558816051-0a1efe688f41?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MXwxMTc3M3wwfDF8c2VhcmNofDE1fHxzd2l0Y2hlfGVufDB8fHw&ixlib=rb-1.2.1&q=80&w=2000"
 slug = "the-power-of-sensible-defaults"
 title = "The Power of Sensible Defaults"
-
 +++
-
 
 Choosing the “best tool for the job” is a mantra that many software engineers repeat when asked to explain their choice of tool, language or framework. In some cases, this choice is right, however far too many times in my career I’ve seen “best tool for the job” loosely translate to whatever was top of Hacker News this week.
 
@@ -72,6 +69,3 @@ Finally, I’d like to close with a quote I found whilst researching this blog p
 
 > Sensible defaults can reduce friction and provide simplicity anywhere one can think to apply them. They are the bedrock of minimalist practice and a quiet mind.
 > &emdash;&emdash; [@patrickhone](https://twitter.com/patrickrhone) - [Sensible Defaults](http://patrickrhone.com/2010/11/08/sensible-defaults/)
-
-
-

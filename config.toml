@@ -1,6 +1,6 @@
 baseURL = 'http://stebennett.github.io/'
 languageCode = 'en-us'
-title = 'Herding Programmers'
+title = 'Thoughts on Engineering Management'
 
 [module]
 [[module.imports]]

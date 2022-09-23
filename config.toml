@@ -2,6 +2,8 @@ baseURL = 'http://stebennett.github.io/'
 languageCode = 'en-us'
 title = 'Thoughts on Engineering Management'
 
+googleAnalytics = 'G-9255WBFQQM'
+
 [module]
 [[module.imports]]
   path = 'github.com/nodejh/hugo-theme-mini'

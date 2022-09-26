@@ -35,11 +35,11 @@ Let's look at some examples to demonstrate these points. In these examples, I'm 
 
 Below is an example chart plotting throughput for a team over 10 weeks. In this chart, we can see that this team has a steadily increasing throughput over this time.
 
-![throughput](__GHOST_URL__/content/images/2021/02/throughput.png)
+![throughput](throughput.png)
 
 Now we add a second team to this chart.
 
-![throughput-2](__GHOST_URL__/content/images/2021/02/throughput-2.png)
+![throughput-2](throughput-2.png)
 
 What conclusions can we draw from this? We could say that the blue team is better than the orange team because their throughput is higher. Yet, is this really true? Perhaps the orange team isn't splitting their tickets down as aggressively as the blue team?
 
@@ -49,15 +49,15 @@ So far, comparing teams hasn't really shown us anything more useful than not doi
 
 Let's add a third team. In this example, the green team has a higher throughput than both the blue and orange teams. We can also see that unlike blue and orange, the green team throughput is decreasing. As two of the three teams are continuing to improve, we might conclude that we have a local issue with the green team that we should look into.
 
-![throughput-3](__GHOST_URL__/content/images/2021/02/throughput-3.png)
+![throughput-3](throughput-3.png)
 
 To be more responsible with our charting, we can remove the axis and normalise the throughput counts. Doing this helps us to draw attention to critical differences and focus on the right conversations (it's also why I used dotted lines for the actual throughput lines). If we look at the revised chart, it's clear that we need to spend time with one team seeking improvements.
 
-![throughput-4](__GHOST_URL__/content/images/2021/02/throughput-4.png)
+![throughput-4](throughput-4.png)
 
 Looking at one more example, we see that every team in this system has decreasing throughput. Seeing this, rather than starting to work with individual teams to improve their throughput, we should focus our energies on developing a better understanding of the system they are operating in.
 
-![throughput-5](__GHOST_URL__/content/images/2021/02/throughput-5.png)
+![throughput-5](throughput-5.png)
 
 In this example, efforts to improve a single team's performance is likely to have limited impact on overall performance. Had we not compared teams, we would not have seen this, and each one would likely have focused on locally optimising their own throughput.
 

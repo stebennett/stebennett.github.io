@@ -8,8 +8,7 @@ title = "Finding great places to work"
 
 +++
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">There are few truly great places to work, therefore you should aim for a place that gives you the freedom to make it great.</p>&mdash; Steve Bennett (@stevebennett) <a href="https://twitter.com/stevebennett/status/832566920012521473?ref_src=twsrc%5Etfw">February 17, 2017</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+{{< tweet user="stevebennett" id="832566920012521473" >}}
 
 Early today I tweeted this, and I thought it was worth giving a little more detail as to what was underlying this pithy sound-bite.
 

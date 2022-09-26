@@ -11,8 +11,7 @@ This week, after over 3 and a half years, I left Alfresco. The decision to leave
 
 My connection with Alfresco goes back further than the recent years working for the company. Back in 2010, while working at Yell, I was part of a team tasked with creating a knowledge base based on (the now deprecated) Alfresco Web Content Management. It's fair to say that 10 years ago, I wasn't exactly enamoured with the software.
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Spent the whole day chasing down <a href="https://twitter.com/hashtag/alfresco?src=hash&amp;ref_src=twsrc%5Etfw">#alfresco</a> problems. Rapidly falling out of love with it. Could be argued that I was never in love with it.</p>&mdash; Steve Bennett (@stevebennett) <a href="https://twitter.com/stevebennett/status/25905859588?ref_src=twsrc%5Etfw">September 29, 2010</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+{{< tweet user="stevebennett" id="25905859588" >}}
 
 Although we made it to production, the project wasn't a success. Eventually, we dropped the feature from Yell.com and shut down the services.
 
@@ -24,8 +23,7 @@ I'd been following Alfresco throughout the previous 5 years - as an open-source 
 
 The next three years were a whirlwind of development and learning. I attempted to move my thinking from delivery of evergreen e-commerce websites to enterprise on-premise application software. It was a steep learning curve and I'm grateful to all those on the team that helped me along the way.
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">It&#39;s almost a year since I joined <a href="https://twitter.com/Alfresco?ref_src=twsrc%5Etfw">@Alfresco</a>.<br>In that year, I&#39;ve learnt that teams shipping non-web software have some pretty big challenges.</p>&mdash; Steve Bennett 💙 (@stevebennett) <a href="https://twitter.com/stevebennett/status/888050037347024896?ref_src=twsrc%5Etfw">July 20, 2017</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+{{< tweet user="stevebennett" id="888050037347024896" >}}
 
 Over this time, I moved from Engineering Manager to VP of Engineering for the Platform Engineering team. I worked with this team to increase the cadence of releases, increasing automation and reducing the amount of time spent on manual release validation.
 

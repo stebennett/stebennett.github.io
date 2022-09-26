@@ -17,23 +17,23 @@ As I talked about the changes in expectations across I have for the impact peopl
 
 We start from the centre of this diagram, where we find our entry level engineers (Engineer I), and slightly further out our Engineer II’s. At these levels, your impact and influence is expected to be on an individual level, as you use your new and existing skills to be a competent individual contributor and collaborative team member. Your focus here is on growing as an engineer, taking opportunities to learn and develop new skills.
 
-![Influence on individual](__GHOST_URL__/content/images/2021/02/77bda-img.png)
+![Influence on individual](eng-1-2.png)
 
 Moving outwards, our Senior Engineers are expected to have impact and influence over their individual scrum and delivery teams. At this level, you’ll be expected to be co-ordinating others to solve problems and motivate the team to achieving their goals. To do this, there’s an expectation that you’ll need to have achieved a strong base of knowledge in our products and in at least one of key technologies.
 
-![Influence on team](__GHOST_URL__/content/images/2021/02/42e48-img.png)
+![Influence on team](senior-engineer.png)
 
 Looking to our Staff Engineer circle, this is the first time your influence and impact starts to transcend your immediate team. Here you’ll be expected to be defining the approach for not only your delivery team, but also starting to influence other members within your own discipline. For example, as a Staff Test Engineer, you could be helping to define the approach to testing RESTful services across the group.
 
-![Influence on discipline](__GHOST_URL__/content/images/2021/02/f7204-img.png)
+![Influence on discipline](staff-engineer.png)
 
 In the Principal Engineer circle, you’ll be starting to change the agenda for the engineering group. This will involve working across boundaries of disciplines or delivery teams to define processes, practices and behaviours or to deliver large pieces of work co-ordinating amongst several groups. Alternatively, as a Principal Engineer you could be the one using specialist knowledge to solve particularly sticky issues for teams.
 
-![Influence on engineering](__GHOST_URL__/content/images/2021/02/0049b-img.png)
+![Influence on engineering](principal-engineer.png)
 
 Finally, at the edge of the diagram we find out Distinguished Engineers. At this level, engineers are supporting technology initiatives at a company or industry level. Your impact and influence is no longer limited by the boundaries of the company, and you use your skills to drive significant change to not only the company, but also to the wider industry.
 
-![Influence on company](__GHOST_URL__/content/images/2021/02/fee7a-img.png)
+![Influence on company](distinguished-engineer.png)
 
 I’ve found this 5 circles approach as a good way of showing the expectations at each level in a way which is simple and understandable. It clearly shows the differences between each level, and gives people a lens with which they can better understand their own position on the career path.
 

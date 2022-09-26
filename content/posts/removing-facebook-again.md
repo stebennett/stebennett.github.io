@@ -13,7 +13,7 @@ title = "Removing Facebook (again)"
 
 Late in March 2018 I decided to delete my Facebook account. 
 
-This isn't the first time I'd decided to do this. In 2014, as Facebook turned 10, I decided to put my own usage of the [social network on pause](__GHOST_URL__/2014/02/25/putting-facebook-on-pause/). 
+This isn't the first time I'd decided to do this. In 2014, as Facebook turned 10, I decided to put my own usage of the [social network on pause]({{< ref "/posts/putting-facebook-on-pause.md" >}}). 
 
 This didn't last too long and only a few months later I'd decided to reactivate my account. 
 

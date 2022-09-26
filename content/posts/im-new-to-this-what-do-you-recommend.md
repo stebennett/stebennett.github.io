@@ -20,13 +20,13 @@ Even if you do have the support and development plan in place from your boss, th
 
 I hope to give you some help with this through a series of blog posts covering some of my favourite resources for learning and development. I'll list out some of the books, websites, communities, conferences and people I look to for inspiration, advice or growth.&nbsp;
 
-Each post will be included tagged with [#newtothis](https://stevebennett.co/tag/newtothis/) on my blog, so over time, my hope is to build up a series for you to refer back to.
+Each post will be included tagged with [#newtothis]({{< ref "/tags/newtothis" >}}) on my blog, so over time, my hope is to build up a series for you to refer back to.
 
 And throughout the series, I want to hear your feedback. If you disagree with a selection, let me know! And if I've missed your favourite, please tell me - I'm always on the look-out for new sources of inspiration.
 
 Here are the lists:
 
-- Books - [I'm new to Engineering Management, what books should I read?](https://stevebennett.co/2020/04/22/im-new-to-engineering-management-what-books-should-i-read/)
+- Books - [I'm new to Engineering Management, what books should I read?]({{< ref "/posts/im-new-to-engineering-management-what-books-should-i-read.md" >}})
 - Blogs - Coming soon
 - Newsletters - Coming soon
 - Podcasts - Coming soon

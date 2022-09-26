@@ -63,4 +63,4 @@ Another business novel, where we shadow a manufacturing plant manager trying to 
 
 If you're not already managing a team practising Continuous Delivery, or even if you are, this book provides the science behind why these practices are so valuable to building well-performing teams. You might not learn any new techniques of how to make the change from this book (I'd recommend [Continuous Delivery](https://amzn.to/3asF396),[The DevOps Handbook](https://amzn.to/3an8Hg4) or [Site Reliability Engineering](https://amzn.to/3bxeC3m) for that), however, you will leave with an understanding of the benefits that can be gained from taking such approaches. You'll also learn about some useful starter metrics for measuring the performance of the teams you work with.
 
-You can find more of the series at [https://stevebennett.co/2020/04/21/im-new-to-this-what-do-you-recommend/](https://stevebennett.co/2020/04/21/im-new-to-this-what-do-you-recommend/)
+You can find more recommendations in the [I'm New to This]({{< ref "/posts/im-new-to-this-what-do-you-recommend.md" >}}) series.

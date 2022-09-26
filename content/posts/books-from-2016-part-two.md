@@ -7,7 +7,7 @@ slug = "books-from-2016-part-two"
 title = "Books from 2016 - Part Two"
 +++
 
-This is part two of my review of books I've read in 2016. [Part One can be found here](https://www.stevebennett.co/2016/12/12/books-from-2016-part-one).
+This is part two of my review of books I've read in 2016. [Part One can be found here]({{< ref "/posts/books-from-2016-part-one.md" >}}).
 
 My complete "Year in Books" can also be found on [Goodreads](https://www.goodreads.com/user/year_in_books/2016/6021936).
 

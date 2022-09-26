@@ -9,7 +9,7 @@ title = "The future for manual testing"
 
 Is being a manual tester a dead-end career as [@jsonmez](http://www.twitter.com/jsonmez) says in his video response for Simple Programmer?
 
-<iframe width="200" height="113" src="https://www.youtube.com/embed/7VFShEGkNzk?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+{{< youtube qUYg7m4HWNA >}}
 
 I'm a developer and I'll admit that I've looked down on testers in the past. It's not something I'm proud of. I was wrong.
 

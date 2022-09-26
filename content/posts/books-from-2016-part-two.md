@@ -29,7 +29,7 @@ The book is often lauded in management circles, and it does provide a good intro
 
 Overall, an enjoyable and thought-provoking read, although a little light on details and actionable ideas.
 
-### {{< amazon item="B00AZRBLHO" title="The Phoenix Project: A Novel About IT, DevOps, and Helping Your Business Win by Gene Kim, Kevin Behr, George Spafford" >}}
+### {{< amazon item="1942788290" title="The Phoenix Project: A Novel About IT, DevOps, and Helping Your Business Win by Gene Kim, Kevin Behr, George Spafford" >}}
 
 This book made me feel uncomfortable at times. Not because it was bad, but because it was too close to situations I'd personally experienced.
 

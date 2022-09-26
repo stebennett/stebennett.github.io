@@ -19,7 +19,7 @@ However, as with all arguments, there's nuance, and I think there are some excel
 
 My approach to managing teams of teams has evolved over the past couple of years to consider more greatly the way the system as a whole is operating. I've been inspired to change by reading and development in the areas of system thinking. The rest of this post will pull on some ideas from system thinking. 
 
-If you've not come across the concept, then what follows might not resonate with you. Good background reading on the topic is [Think in Systems](https://www.amazon.co.uk/Thinking-Systems-Donella-H-Meadows-ebook/dp/B005VSRFEA/), or for a quicker read, there's the [Introduction to Systems Thinking](https://thesystemsthinker.com/introduction-to-systems-thinking/). 
+If you've not come across the concept, then what follows might not resonate with you. Good background reading on the topic is {{< amazon item="1603580557" title="Thinking in Systems by Donella H. Meadows">}}, or for a quicker read, there's the [Introduction to Systems Thinking](https://thesystemsthinker.com/introduction-to-systems-thinking/). 
 
 No matter how hard we work to eliminate cross-team dependencies, a group of engineering teams working towards a common goal operate in the same system of delivery. Therefore, it can be said that the performance of this broader system (the Engineering team) will be directly related to the performance of its constituent parts (a Scrum team, for example).
 

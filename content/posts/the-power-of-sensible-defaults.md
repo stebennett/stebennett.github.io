@@ -23,7 +23,7 @@ Notice, I’m not saying it’s the only choice, it’s just your default. Engin
 
 I’m not the only one that sees the advantage in having defaults. In 2014, Ben Vinegar wrote a medium post about how “[The best tool for the job, isn’t always](https://medium.com/@bentlegen/the-best-tool-for-the-job-isnt-always-6ed364f3f775)” where he describes the reasons for standardization whilst he was at Disqus.
 
-So, whilst it may feel restrictive, and at odds with everything you’ve read about [motivation and autonomy](http://amzn.eu/9TjWCZG), I believe that more teams should embrace the power of Sensible Defaults.
+So, whilst it may feel restrictive, and at odds with everything you’ve read about motivation and autonomy (check the book "{{< amazon item="1786891700" title="Drive" >}}" for more on this) I believe that more teams should embrace the power of Sensible Defaults.
 
 ## Documenting your Sensible Defaults
 The choice for the Sensible Default is one that should be carefully considered, both in relation to the technical problems it will need to solve and the skills in the organisation. A Sensible Default choice has wider ranging impacts that just the local team, so the candidates for the default need to be assessed against different scenarios aside and with the wider team. I’m not going to go into the process of making technology choices, as this topic probably deserves it’s own blog post, but I do want to comment on how decisions should be documented.

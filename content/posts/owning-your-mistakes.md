@@ -16,7 +16,7 @@ Wouldn’t this be showing a weakness? Wouldn’t it show that your infallible? 
 In fact, in my experience I’ve found the exact opposite to be true. Being able to admit to your mistakes creates the impression of a more confident leader, gives you the freedom to take more risks and helps foster a culture of trust and respect.
 
 ## Building trust
-In the [“5 Dysfunctions of a Team”](http://amzn.eu/bEqkjYW), Patrick Lencioni describes the common issues which lead to team failure. The base of this pyramid is “absence of trust”. Lencioni goes onto explain that individuals need to achieve vulnerable trust, a trust that the intentions of their peers are good which in turn gives people the freedom to express different opinions or ideas.
+In  {{< amazon item="0787960756" title="The 5 Dysfunctions of a Team" >}}, Patrick Lencioni describes the common issues which lead to team failure. The base of this pyramid is "absence of trust". Lencioni goes onto explain that individuals need to achieve vulnerable trust, a trust that the intentions of their peers are good which in turn gives people the freedom to express different opinions or ideas.
 
 > As desirable as this may be, it is not enough to represent the kind of trust that is characteristic of a great team. It requires team members to make themselves vulnerable to one another, and be confident that their respective vulnerabilities will not be used against them. The vulnerabilities I’m referring to include weaknesses, skill deficiencies, interpersonal shortcomings, mistakes and requests for help.
 > 

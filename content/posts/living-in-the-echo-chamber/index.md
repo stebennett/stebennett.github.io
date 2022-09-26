@@ -15,9 +15,7 @@ I woke to the news of the result at 5.30am. Jo (my wife) got out of bed before m
 
 Before I went to bed, I knew that there'd be a good chance that we'd be waking up to a result, however my groggy head wasn't prepared for the news that I heard. David Dimbleby was explaining that with the votes already counted, the BBC were predicting that the Leave Campaign would win by a small margin. Within the next half an hour, and as I showered, and tucked into breakfast, the official result came through. Britain had decided to Brexit.
 
-[youtube=https://www.youtube.com/watch?v=CEWiMzC6GNg&amp;w=560&amp;h=315]
-
-<iframe width="200" height="113" src="https://www.youtube.com/embed/CEWiMzC6GNg?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+{{< youtube CEWiMzC6GNg >}}
 
 To me this came as a shock. I knew that the vote was expected to be close, but I thought that in the end people would decide to Remain.
 
@@ -39,7 +37,7 @@ People like people like themselves. Social networks, such as Twitter and Faceboo
 
 I'm not even connected to my local community, as my local council decided to vote in favour of Leave 54% to 46%.
 
-![Bracknell referendum results](__GHOST_URL__/content/images/2021/02/f2e8c-img.png)
+![Bracknell referendum results](bracknell-referendum-results.png)
 
 As I write this, I know that this isn't right.
 
@@ -62,6 +60,3 @@ I’m not the only one feeling this way. As I travelled back home, a tweet poppe
 So, where next?
 
 For now, I’m not sure. But I’m fully aware of the issue, and I’m not happy to just continue in this bubble.
-
-
-

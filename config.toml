@@ -1,5 +1,5 @@
-baseURL = 'http://stebennett.github.io/'
-languageCode = 'en-us'
+baseURL = 'http://stevebennett.co/'
+languageCode = 'en-gb'
 title = 'Thoughts on Engineering Management'
 
 googleAnalytics = 'G-9255WBFQQM'

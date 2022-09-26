@@ -27,18 +27,15 @@ My Facebook feed was largely devoid of Leave supporters. The same for my Twitter
 
 Following the result, the rallying pro-Remain posts on my social feed were replaced with people expressing their sadness, disappointment and fear over the result and what was to follow. A few people joked (I think) about leaving the country. I joked about leaving the country (Still not sure - I think it was a joke).
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Looking for a Job in a London branch of a US company, with the possibility for a L1 transfer stateside in a years time. Not staying here.</p>&mdash; Zan (@zmarkan) <a href="https://twitter.com/zmarkan/status/746197160950009856?ref_src=twsrc%5Etfw">June 24, 2016</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+{{< tweet user="zmarkan" id="746197160950009856" >}}
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">I had a conversation last night about living outside of the UK. Last night it was hypothetical. I think we should revisit it today.</p>&mdash; Steve Bennett 💙 (@stevebennett) <a href="https://twitter.com/stevebennett/status/746290553642323968?ref_src=twsrc%5Etfw">June 24, 2016</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+{{< tweet user="stevebennett" id="746290553642323968" >}}
 
 I didn't see anyone celebrating the Leave victory. Not one person on Facebook. I had to check the trending topics on Twitter in order to find some traces of victory. It was at this point that something really started to hit home. Something about my place on social media which worries me. I'm living in an echo chamber.
 
 People like people like themselves. Social networks, such as Twitter and Facebook only further encourage this behaviour. Personally, I don't follow people I disagree with. I certainly don't "Like" people on Facebook whose views are at odds with mine. The consequence is that my feeds are full of people like me. People living and working in technology. People who live in London (a place where people voted to remain) or other affluent parts of the UK. Or affluent parts of the US. People who have been largely (luckily) unaffected by the 2008 financial crisis. People who are not on benefits. People who have not been affected by George Osbourne's austerity budgets. People who shop at Waitrose. People who are not “old”.
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">First demographics of <a href="https://twitter.com/hashtag/EUref?src=hash&amp;ref_src=twsrc%5Etfw">#EUref</a> vote from <a href="https://twitter.com/LordAshcroft?ref_src=twsrc%5Etfw">@LordAshcroft</a>. UK totally divided between young/old, rich/poor. Grim reading; <a href="https://t.co/AKPfWJf55z">pic.twitter.com/AKPfWJf55z</a></p>&mdash; Tom Newton Dunn (@tnewtondunn) <a href="https://twitter.com/tnewtondunn/status/746323670570831873?ref_src=twsrc%5Etfw">June 24, 2016</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+{{< tweet user="tnewtondunn" id="746323670570831873" >}}
 
 I'm not even connected to my local community, as my local council decided to vote in favour of Leave 54% to 46%.
 
@@ -60,8 +57,7 @@ For Facebook, it’s a tough decision to make. Am I going to continue to open th
 
 I’m not the only one feeling this way. As I travelled back home, a tweet popped up in my stream from someone who’s come to the same realisation.
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">An appeal to everyone I know who works at Twitter, Facebook, Google etc, and for the people who influence them <a href="https://t.co/TRBTbZHrxG">pic.twitter.com/TRBTbZHrxG</a></p>&mdash; Tom Steinberg (@steiny) <a href="https://twitter.com/steiny/status/746352702284771329?ref_src=twsrc%5Etfw">June 24, 2016</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+{{< tweet user="steiny" id="746352702284771329" >}}
 
 So, where next?
 

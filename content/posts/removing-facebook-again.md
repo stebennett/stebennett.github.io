@@ -8,8 +8,7 @@ title = "Removing Facebook (again)"
 
 +++
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Scheduled deletion of my Facebook account. I&#39;d recently removed it from my phone and disabled my account. <a href="https://twitter.com/hashtag/DeleteFacebook?src=hash&amp;ref_src=twsrc%5Etfw">#DeleteFacebook</a></p>&mdash; Steve Bennett (@stevebennett) <a href="https://twitter.com/stevebennett/status/976019846889705472?ref_src=twsrc%5Etfw">March 20, 2018</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+{{< tweet user="stevebennett" id="976019846889705472" >}}
 
 Late in March 2018 I decided to delete my Facebook account. 
 
@@ -19,8 +18,7 @@ This didn't last too long and only a few months later I'd decided to reactivate 
 
 In 2015, in another attempt to reduce my usage of Facebook, I removed the apps from my phone.
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Purged <a href="https://twitter.com/hashtag/linkedin?src=hash&amp;ref_src=twsrc%5Etfw">#linkedin</a> and <a href="https://twitter.com/hashtag/facebook?src=hash&amp;ref_src=twsrc%5Etfw">#facebook</a> from my phone.</p>&mdash; Steve Bennett (@stevebennett) <a href="https://twitter.com/stevebennett/status/560709236544770048?ref_src=twsrc%5Etfw">January 29, 2015</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+{{< tweet user="stevebennett" id="560709236544770048" >}}
 
 nce again, this didn't stick and the big blue app found it's way back onto my device. (LinkedIn is still absent though)
 

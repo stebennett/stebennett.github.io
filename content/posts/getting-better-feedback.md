@@ -9,8 +9,7 @@ title = "Getting better feedback"
 
 Recently, I came across the following post on Twitter.
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">100% of peer feedback I&#39;ve read for mobile engineers at every company I&#39;ve worked at:<br><br>From other mobile engineers: They should continue to deepen their mastery of craft on mobile technologies<br><br>From non-mobile engineers: They should branch out and learn non-mobile stacks already</p>&mdash; Michael Margolis 🚫 (@yipe) <a href="https://twitter.com/yipe/status/1224173990861688832?ref_src=twsrc%5Etfw">February 3, 2020</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+{{< tweet user="yipe" id="1224173990861688832" >}}
 
 The post resonated with me as it demonstrated a regularly encountered problem when collecting feedback for individuals, or looking for feedback for yourself.&nbsp;
 

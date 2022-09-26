@@ -4,7 +4,7 @@ date = 2014-11-06T22:04:17Z
 description = ""
 draft = true
 image = "__GHOST_URL__/content/images/2021/02/8505e-waiter-1.jpg"
-slug = "waiter-theres-test-in-my-dev-redev-2014"
+slug = "waiter-theres-test-in-my-dev-oredev-2014"
 title = "Waiter, there's test in my dev! - Øredev 2014"
 
 +++

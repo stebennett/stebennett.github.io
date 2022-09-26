@@ -3,14 +3,12 @@ author = "Steve Bennett"
 date = 2014-11-07T20:28:53Z
 description = ""
 draft = true
-image = "__GHOST_URL__/content/images/2021/02/5ed38-img.gif"
 slug = "oredev-2014-day-one"
 title = "Øredev 2014 - Day One"
-
 +++
 
 
-I attended Øredev 2014 to present a talk with Ben Kelly on the relationship between testers and developers at eBay. The details of the talk we gave can be seen [here](__GHOST_URL__/2014/11/6/waiter-theres-test-in-my-dev-redev-2014).
+I attended Øredev 2014 to present a talk with Ben Kelly on the relationship between testers and developers at eBay. The details of the talk we gave can be seen [here]({{< ref "posts/waiter-theres-test-in-my-dev-oredev-2014.md" >}}).
 
 Whilst at the conference, I took the opportunity to attend a number of other sessions. Øredev is a conference with a wide range of talks covering topics such as agile development, Java, .Net, testing, user experience and front-end development. As such, the sessions I attended were varied, although I did attend a fair number targetted at front-end development.
 

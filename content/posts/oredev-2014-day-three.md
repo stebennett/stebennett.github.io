@@ -2,7 +2,7 @@
 author = "Steve Bennett"
 date = 2014-11-25T14:14:11Z
 description = ""
-draft = true
+draft = false
 slug = "oredev-2014-day-three"
 title = "Øredev 2014 - Day Three"
 +++

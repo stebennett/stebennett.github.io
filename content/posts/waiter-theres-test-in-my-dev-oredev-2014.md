@@ -2,13 +2,11 @@
 author = "Steve Bennett"
 date = 2014-11-06T22:04:17Z
 description = ""
-draft = true
-image = "__GHOST_URL__/content/images/2021/02/8505e-waiter-1.jpg"
+draft = false
 slug = "waiter-theres-test-in-my-dev-oredev-2014"
 title = "Waiter, there's test in my dev! - Øredev 2014"
 
 +++
-
 
 This week I completed my first talk at a major developer conference, [Øredev](http://www.oredev.org/2014) in Malmö. I found it both nerve-racking and exciting in the lead up to the talk, but once I got started I soon settled in and concentrated on the content.
 
@@ -22,5 +20,4 @@ So, here it is. My first real conference talk. Feel free to critique, offer advi
 
 Also, let's continue the conversation - how do your testers and developers work together? What works and what doesn't?
 
-
-
+{{< vimeo 111039383 >}}

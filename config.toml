@@ -4,6 +4,11 @@ title = 'Thoughts on Engineering Management'
 
 googleAnalytics = 'G-9255WBFQQM'
 
+[social]
+github = 'stebennett'
+twitter = 'stevebennett'
+
 [module]
 [[module.imports]]
   path = 'github.com/nodejh/hugo-theme-mini'
+

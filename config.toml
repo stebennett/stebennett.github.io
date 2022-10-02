@@ -5,8 +5,8 @@ title = 'Thoughts on Engineering Management'
 googleAnalytics = 'G-9255WBFQQM'
 
 [social]
-github = 'stebennett'
-twitter = 'stevebennett'
+github = 'https://github.com/stebennett'
+twitter = 'https://twitter.com/stevebennett'
 
 [module]
 [[module.imports]]

@@ -7,8 +7,9 @@ googleAnalytics = 'G-9255WBFQQM'
 [social]
 github = 'https://github.com/stebennett'
 twitter = 'https://twitter.com/stevebennett'
+linkedin = 'https://www.linkedin.com/in/stebennett/'
 
 [module]
 [[module.imports]]
-  path = 'github.com/nodejh/hugo-theme-mini'
+  path = 'github.com/stebennett/stevebennett-theme'
 

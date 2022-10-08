@@ -1,2 +1,8 @@
 github.com/nodejh/hugo-theme-mini v0.0.0-20220804084250-7f6f39505248 h1:nejpTR6DZvqG1cPa3pXcVIiNROOrdES8cxX1IJ1jF70=
 github.com/nodejh/hugo-theme-mini v0.0.0-20220804084250-7f6f39505248/go.mod h1:+Rl6qKesH3DeBOjXcmPXB1L/LwD3RqXzopTzon/jv5Q=
+github.com/stebennett/stevebennett-theme v0.0.0-20221008095049-73c33ed59bc6 h1:r9dRiEiloT5xTZeAx042WhTKCVs32rZ9QNKCsW/deE4=
+github.com/stebennett/stevebennett-theme v0.0.0-20221008095049-73c33ed59bc6/go.mod h1:rE8/EJloqRZOX+pL4r7lZObxXGuzmuEJ7CSdpC3X3sI=
+github.com/stebennett/stevebennett-theme v0.0.0-20221008100052-431e5a8fd636 h1:d047pL7YVbPSLLkqE2rRrcqd6k1TUV4zRJp30AULFy4=
+github.com/stebennett/stevebennett-theme v0.0.0-20221008100052-431e5a8fd636/go.mod h1:rE8/EJloqRZOX+pL4r7lZObxXGuzmuEJ7CSdpC3X3sI=
+github.com/stebennett/stevebennett-theme v0.0.0-20221008103327-a55e6db93e51 h1:I+UIw8aZ2evFCdGjPbU4z4G/4hQG812dIFEZeaXQ9js=
+github.com/stebennett/stevebennett-theme v0.0.0-20221008103327-a55e6db93e51/go.mod h1:bSFR+gr6WgtsZS7ThOEUU4hFPCMV5RXiRQ6NxigSVbQ=

@@ -6,3 +6,5 @@ github.com/stebennett/stevebennett-theme v0.0.0-20221008100052-431e5a8fd636 h1:d
 github.com/stebennett/stevebennett-theme v0.0.0-20221008100052-431e5a8fd636/go.mod h1:rE8/EJloqRZOX+pL4r7lZObxXGuzmuEJ7CSdpC3X3sI=
 github.com/stebennett/stevebennett-theme v0.0.0-20221008103327-a55e6db93e51 h1:I+UIw8aZ2evFCdGjPbU4z4G/4hQG812dIFEZeaXQ9js=
 github.com/stebennett/stevebennett-theme v0.0.0-20221008103327-a55e6db93e51/go.mod h1:bSFR+gr6WgtsZS7ThOEUU4hFPCMV5RXiRQ6NxigSVbQ=
+github.com/stebennett/stevebennett-theme v0.0.0-20221114165534-69886c59015f h1:GhAUxhJN8FvxrqP7ZQS4mYkLVFMDiQQzTgwjsZzR2O0=
+github.com/stebennett/stevebennett-theme v0.0.0-20221114165534-69886c59015f/go.mod h1:bSFR+gr6WgtsZS7ThOEUU4hFPCMV5RXiRQ6NxigSVbQ=

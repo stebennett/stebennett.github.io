@@ -8,7 +8,7 @@ googleAnalytics = 'G-9255WBFQQM'
 github = 'https://github.com/stebennett'
 twitter = 'https://twitter.com/stevebennett'
 linkedin = 'https://www.linkedin.com/in/stebennett/'
-mastodon = 'https://hachyderm.io/@steveb'
+mastodon = 'https://mastodon.me.uk/@steve'
 
 [module]
 [[module.imports]]

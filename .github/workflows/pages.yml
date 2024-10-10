@@ -2,6 +2,9 @@
 name: Deploy Hugo site to Pages
 
 on:
+  # receiving a build call from an event
+  repository_dispatch:
+    types: [trigger-pages-workflow]
   # Runs on pushes targeting the default branch
   push:
     branches: ["main"]

@@ -73,10 +73,11 @@ jobs:
           with:
             github-token: ${{ secrets.GITHUB_TOKEN }}
             script: |
+              const { owner, repo } = github.context.repo;
               const result = await github.rest.pulls.create({
-                title: 'notes: update notes ${{ github.ref_name }}',
-                owner: context.repo.owner,
-                repo: context.repo.repo,
+                title: 'notes: update notes ${{ steps.generate_branch.outputs.branch_name }}',
+                owner: owner,
+                repo: repo,
                 head: '${{ steps.generate_branch.outputs.branch_name }}',
                 base: '${{ github.event.repository.default_branch }}',
                 body: 'This PR was automatically created by the GitHub Action workflow **${{ github.workflow }}**. \n\nChanges included in this PR:\n- Automated updates from the workflow run.',
@@ -96,6 +97,7 @@ jobs:
             github-token: ${{ secrets.GITHUB_TOKEN }}
             script: |
               const pr = ${{ steps.create_pr.outputs.result }};
+              const { owner, repo } = github.context.repo;
               await github.rest.pulls.merge({
                 owner: context.repo.owner,
                 repo: context.repo.repo,

@@ -73,7 +73,7 @@ jobs:
           with:
             github-token: ${{ secrets.GITHUB_TOKEN }}
             script: |
-              const { owner, repo } = github.context.repo;
+              const { owner, repo } = context.repo;
               const result = await github.rest.pulls.create({
                 title: 'notes: update notes ${{ steps.generate_branch.outputs.branch_name }}',
                 owner: owner,
@@ -97,10 +97,10 @@ jobs:
             github-token: ${{ secrets.GITHUB_TOKEN }}
             script: |
               const pr = ${{ steps.create_pr.outputs.result }};
-              const { owner, repo } = github.context.repo;
+              const { owner, repo } = context.repo;
               await github.rest.pulls.merge({
-                owner: context.repo.owner,
-                repo: context.repo.repo,
+                owner: owner,
+                repo: repo,
                 pull_number: pr
                 merge_method: 'squash'
               });

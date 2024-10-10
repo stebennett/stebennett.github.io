@@ -1,0 +1,105 @@
+name: Create Notes PR
+
+on:
+  # receiving a build call from an event
+  repository_dispatch:
+    types: [trigger-pages-workflow]
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
+permissions:
+  contents: write
+  id-token: write
+
+# Allow one concurrent deployment
+concurrency:
+  group: "notes"
+  cancel-in-progress: true
+
+# Default to bash
+defaults:
+  run:
+    shell: bash
+
+jobs:
+  create-pull-request:
+    runs-on: ubuntu-latest
+    env:
+      HUGO_VERSION: 0.130.0
+    steps:
+        - name: Install Hugo CLI
+          run: |
+            wget -O ${{ runner.temp }}/hugo.deb https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb \
+            && sudo dpkg -i ${{ runner.temp }}/hugo.deb
+        - name: Checkout
+          uses: actions/checkout@v3
+          with:
+            submodules: recursive
+        - name: Update .netrc
+          id: netrc
+          run: |
+            echo "machine github.com login ${{ secrets.GH_AUTH_TOKEN }} password x-oauth-basic" > $HOME/.netrc
+        - name: Hugo module update
+          run: |
+            hugo mod get -u && hugo mod tidy
+        - name: Check for changes
+          id: check_changes
+          run: |
+            changes=$(git status --porcelain | wc -l | awk '{print ($1 > 0 ? "true" : "false")}')
+            echo "has_changes=$changes" >> $GITHUB_OUTPUT
+        - name: Generate unique branch name
+          if: steps.check_changes.outputs.has_changes == 'true'
+          id: generate_branch
+          run: |
+            timestamp=$(date +%Y%m%d%H%M%S)
+            echo "branch_name=notes/update-notes-$timestamp" >> $GITHUB_OUTPUT 
+        - name: Commit to branch
+          if: steps.check_changes.outputs.has_changes == 'true'
+          run: |
+            git config user.name github-actions
+            git config user.email github-actions@github.com
+            git checkout -b ${{ steps.generate_branch.outputs.branch_name }}
+            git add .
+            git commit -m "notes: automated publish"
+            git push origin ${{ steps.generate_branch.outputs.branch_name }}
+          env:
+            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        - name: Create Pull Request
+          if: steps.check_changes.outputs.has_changes == 'true'
+          id: create_pr
+          uses: actions/github-script@v7
+          with:
+            github-token: ${{ secrets.GITHUB_TOKEN }}
+            script: |
+              const result = await github.rest.pulls.create({
+                title: 'notes: update notes ${{ github.ref_name }}',
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                head: '${{ steps.generate_branch.outputs.branch_name }}',
+                base: '${{ github.event.repository.default_branch }}',
+                body: 'This PR was automatically created by the GitHub Action workflow **${{ github.workflow }}**. \n\nChanges included in this PR:\n- Automated updates from the workflow run.',
+              });
+              github.rest.issues.addLabels({
+                owner,
+                repo,
+                issue_number: result.data.number,
+                labels: ['notes', 'automated']
+              });
+              console.log('Pull Request created: ' + result.data.html_url);
+              return result.data.number;
+        - name: Merge Pull Request
+          if: steps.check_changes.outputs.has_changes == 'true'
+          uses: actions/github-script@7
+          with:
+            github-token: ${{ secrets.GITHUB_TOKEN }}
+            script: |
+              const pr = ${{ steps.create_pr.outputs.result }};
+              await github.rest.pulls.merge({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                pull_number: pr
+                merge_method: 'squash'
+              });
+              console.log('Pull Request #' + pr + ' has been merged.');
+              

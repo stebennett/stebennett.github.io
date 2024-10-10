@@ -46,7 +46,7 @@ jobs:
       - name: Update .netrc
         id: netrc
         run: |
-          echo "machine github.com login ${{ secrets.GH_AUTH_TOKEN }} password x-oauth-basic" &gt; $HOME/.netrc
+          echo "machine github.com login ${{ secrets.GH_AUTH_TOKEN }} password x-oauth-basic" > $HOME/.netrc
       - name: Build with Hugo
         env:
           # For maximum backward compatibility with Hugo modules

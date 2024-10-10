@@ -14,3 +14,13 @@ mastodon = 'https://mastodon.me.uk/@steve'
 [[module.imports]]
   path = 'github.com/stebennett/stevebennett-theme'
 
+[[module.imports]]
+  path = 'github.com/stebennett/notes'
+
+  [[module.imports.mounts]]
+  source = 'public_notes'
+  target = 'content/notes'
+  
+[[permalinks]]
+  notes = "/notes/:year/:month/:day/:slug/"
+  posts = "/posts/:slug/"

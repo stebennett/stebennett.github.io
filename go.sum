@@ -1,5 +1,11 @@
 github.com/nodejh/hugo-theme-mini v0.0.0-20220804084250-7f6f39505248 h1:nejpTR6DZvqG1cPa3pXcVIiNROOrdES8cxX1IJ1jF70=
 github.com/nodejh/hugo-theme-mini v0.0.0-20220804084250-7f6f39505248/go.mod h1:+Rl6qKesH3DeBOjXcmPXB1L/LwD3RqXzopTzon/jv5Q=
+github.com/stebennett/notes v0.0.0-20241009110439-a50ee3bdebbf h1:hB6/f0+BG7oMjBErgaskRC1vZNwNiUk9UhfbmFyKgW4=
+github.com/stebennett/notes v0.0.0-20241009110439-a50ee3bdebbf/go.mod h1:Mmh+bHm+kR9znNqqK6q/T4FS0X0qn87YxhS5aiha9p4=
+github.com/stebennett/notes v0.0.0-20241010101337-85be321a338e h1:cLSJfGsTYzdKXcIj5psdzyDPwKEwOIuSAPTZJBC9ho4=
+github.com/stebennett/notes v0.0.0-20241010101337-85be321a338e/go.mod h1:Mmh+bHm+kR9znNqqK6q/T4FS0X0qn87YxhS5aiha9p4=
+github.com/stebennett/notes v0.0.0-20241010101758-ba96dafec8cc h1:UzZgq/9KuQI9qpzB1ck1OY7cF/H1OWXrFWrpxWh+KzI=
+github.com/stebennett/notes v0.0.0-20241010101758-ba96dafec8cc/go.mod h1:Mmh+bHm+kR9znNqqK6q/T4FS0X0qn87YxhS5aiha9p4=
 github.com/stebennett/stevebennett-theme v0.0.0-20221008095049-73c33ed59bc6 h1:r9dRiEiloT5xTZeAx042WhTKCVs32rZ9QNKCsW/deE4=
 github.com/stebennett/stevebennett-theme v0.0.0-20221008095049-73c33ed59bc6/go.mod h1:rE8/EJloqRZOX+pL4r7lZObxXGuzmuEJ7CSdpC3X3sI=
 github.com/stebennett/stevebennett-theme v0.0.0-20221008100052-431e5a8fd636 h1:d047pL7YVbPSLLkqE2rRrcqd6k1TUV4zRJp30AULFy4=
@@ -10,3 +16,5 @@ github.com/stebennett/stevebennett-theme v0.0.0-20221114165534-69886c59015f h1:G
 github.com/stebennett/stevebennett-theme v0.0.0-20221114165534-69886c59015f/go.mod h1:bSFR+gr6WgtsZS7ThOEUU4hFPCMV5RXiRQ6NxigSVbQ=
 github.com/stebennett/stevebennett-theme v0.0.0-20240827163929-7ab06502a4e0 h1:FzvSJ/v2JyLuT57yBl+JXLjOvCxUavnrlqwNe/UWe2Y=
 github.com/stebennett/stevebennett-theme v0.0.0-20240827163929-7ab06502a4e0/go.mod h1:bSFR+gr6WgtsZS7ThOEUU4hFPCMV5RXiRQ6NxigSVbQ=
+github.com/stebennett/stevebennett-theme v1.0.1 h1:LcPdf/swZ+boIaILX5azJGq7zMVRMQsEzgROCmJ4FQo=
+github.com/stebennett/stevebennett-theme v1.0.1/go.mod h1:bSFR+gr6WgtsZS7ThOEUU4hFPCMV5RXiRQ6NxigSVbQ=

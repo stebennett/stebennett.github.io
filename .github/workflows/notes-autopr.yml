@@ -92,6 +92,7 @@ jobs:
               return result.data.number;
         - name: Merge Pull Request
           if: steps.check_changes.outputs.has_changes == 'true'
+          id: merge_pr
           uses: actions/github-script@v7
           with:
             github-token: ${{ secrets.GITHUB_TOKEN }}
@@ -101,8 +102,30 @@ jobs:
               await github.rest.pulls.merge({
                 owner: owner,
                 repo: repo,
-                pull_number: pr
+                pull_number: pr,
                 merge_method: 'squash'
               });
               console.log('Pull Request #' + pr + ' has been merged.');
+              return pr;
+        - name: Delete Branch
+          if: steps.check_changes.outputs.has_changes == 'true'
+          uses: actions/github-script@v7
+          with:
+            github-token: ${{secrets.GITHUB_TOKEN}}
+            script: |
+              const { owner, repo } = github.context.repo;
+              const pr = ${{ steps.merge_pr.outputs.result }};
               
+              const { data: pullRequest } = await github.rest.pulls.get({
+                owner: owner,
+                repo: repo,
+                pull_number: pr
+              });
+              
+              await github.rest.git.deleteRef({
+                owner: owner,
+                repo: repo,
+                ref: 'heads/' + pullRequest.head.ref
+              });
+              console.log('Branch ' + pullRequest.head.ref + ' has been deleted.');
+                

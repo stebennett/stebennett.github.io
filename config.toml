@@ -1,14 +1,23 @@
 baseURL = 'http://stevebennett.co/'
 languageCode = 'en-gb'
-title = 'Thoughts on Engineering Management'
-
+title = 'Steve Bennett - Engineering Leader'
 googleAnalytics = 'G-9255WBFQQM'
+
+[params]
+name = 'Steve Bennett'
+tagLine = 'Engineering Leader'
+shortBio = ' Steve is an engineering leader with over 15 years of experience in engineering management and a background in eCommerce, enterprise services, and fintech. He is passionate about building great products and teams using agile and extreme programming practices, and the craft of engineering management.'
+enableRss = true
+
+tabsHeading = 'Work History'
+twoBoxHeading = 'Community'
 
 [social]
 github = 'https://github.com/stebennett'
 twitter = 'https://twitter.com/stevebennett'
 linkedin = 'https://www.linkedin.com/in/stebennett/'
 mastodon = 'https://mastodon.me.uk/@steve'
+
 
 [module]
 [[module.imports]]

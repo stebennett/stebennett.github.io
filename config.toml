@@ -4,7 +4,7 @@ title = 'Thoughts on Engineering Management'
 
 googleAnalytics = 'G-9255WBFQQM'
 
-[social]
+[params.social]
 github = 'https://github.com/stebennett'
 twitter = 'https://twitter.com/stevebennett'
 linkedin = 'https://www.linkedin.com/in/stebennett/'

@@ -10,6 +10,11 @@ shortBio = 'Engineering leader with over 15 years of experience in engineering m
 tabsHeading = 'Work History'
 twoBoxHeading = 'Community'
 
+[params.contact]
+intro = "Feel free to reach out! I'll get back to you as soon as possible."
+submitJSONApiKey = 'sjk_f2c2a7aa054840d989ee477ac07701a4'
+submitJSONSubmitUrl = 'https://api.submitjson.com/v1/submit/c4mx9R5un'
+
 [params.social]
 github = 'https://github.com/stebennett'
 twitter = 'https://twitter.com/stevebennett'

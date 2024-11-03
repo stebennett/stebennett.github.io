@@ -1,8 +1,19 @@
 baseURL = 'http://stevebennett.co/'
 languageCode = 'en-gb'
-title = 'Thoughts on Engineering Management'
-
+title = 'Steve Bennett - Engineering Leader'
 googleAnalytics = 'G-9255WBFQQM'
+
+[params]
+name = 'Steve Bennett'
+tagline = 'Engineering Leader'
+shortBio = 'Engineering leader with over 15 years of experience in engineering management, with a background in eCommerce, enterprise services, and fintech. I aim to empower teams to create innovative and scalable solutions that enhance the customer experience and drive business value.'
+tabsHeading = 'Work History'
+twoBoxHeading = 'Community'
+
+[params.contact]
+intro = "Feel free to reach out! I'll get back to you as soon as possible."
+submitJSONApiKey = 'sjk_f2c2a7aa054840d989ee477ac07701a4'
+submitJSONSubmitUrl = 'https://api.submitjson.com/v1/submit/c4mx9R5un'
 
 [params.social]
 github = 'https://github.com/stebennett'

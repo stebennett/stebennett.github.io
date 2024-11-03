@@ -21,7 +21,6 @@ twitter = 'https://twitter.com/stevebennett'
 linkedin = 'https://www.linkedin.com/in/stebennett/'
 mastodon = 'https://mastodon.me.uk/@steve'
 
-
 [module]
 [[module.imports]]
   path = 'github.com/stebennett/stevebennett-theme'

@@ -2,3 +2,5 @@ github.com/stebennett/notes v0.0.0-20241010160003-02c06d0d5925 h1:F7InK/w27B1g7L
 github.com/stebennett/notes v0.0.0-20241010160003-02c06d0d5925/go.mod h1:Mmh+bHm+kR9znNqqK6q/T4FS0X0qn87YxhS5aiha9p4=
 github.com/stebennett/stevebennett-theme v1.2.0 h1:V9543uX8R10DmnALO802wZn5esqiAZrIhXpH/jxjxR0=
 github.com/stebennett/stevebennett-theme v1.2.0/go.mod h1:bSFR+gr6WgtsZS7ThOEUU4hFPCMV5RXiRQ6NxigSVbQ=
+github.com/stebennett/stevebennett-theme v1.2.1 h1:j984a1szhbDMn+UfZ+qRUx8j+PyCWB/hih0nbXmT/9M=
+github.com/stebennett/stevebennett-theme v1.2.1/go.mod h1:bSFR+gr6WgtsZS7ThOEUU4hFPCMV5RXiRQ6NxigSVbQ=

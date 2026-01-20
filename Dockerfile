@@ -1,4 +1,4 @@
-FROM golang:1.23.0-alpine3.20
+FROM golang:1.24.3-alpine3.20
 
 # Arguments
 ARG DART_SASS_VERSION=1.62.0

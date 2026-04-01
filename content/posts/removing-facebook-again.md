@@ -8,7 +8,7 @@ title = "Removing Facebook (again)"
 
 +++
 
-{{< tweet user="stevebennett" id="976019846889705472" >}}
+{{< x user="stevebennett" id="976019846889705472" >}}
 
 Late in March 2018 I decided to delete my Facebook account. 
 
@@ -18,7 +18,7 @@ This didn't last too long and only a few months later I'd decided to reactivate 
 
 In 2015, in another attempt to reduce my usage of Facebook, I removed the apps from my phone.
 
-{{< tweet user="stevebennett" id="560709236544770048" >}}
+{{< x user="stevebennett" id="560709236544770048" >}}
 
 nce again, this didn't stick and the big blue app found it's way back onto my device. (LinkedIn is still absent though)
 

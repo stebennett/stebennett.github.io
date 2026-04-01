@@ -1,7 +1,7 @@
-FROM golang:1.23.0-alpine3.20
+FROM golang:1.23-alpine
 
 # Arguments
-ARG DART_SASS_VERSION=1.62.0
+ARG DART_SASS_VERSION=1.98.0
 
 # install git
 RUN apk add --no-cache git curl

@@ -25,15 +25,15 @@ My Facebook feed was largely devoid of Leave supporters. The same for my Twitter
 
 Following the result, the rallying pro-Remain posts on my social feed were replaced with people expressing their sadness, disappointment and fear over the result and what was to follow. A few people joked (I think) about leaving the country. I joked about leaving the country (Still not sure - I think it was a joke).
 
-{{< tweet user="zmarkan" id="746197160950009856" >}}
+{{< x user="zmarkan" id="746197160950009856" >}}
 
-{{< tweet user="stevebennett" id="746290553642323968" >}}
+{{< x user="stevebennett" id="746290553642323968" >}}
 
 I didn't see anyone celebrating the Leave victory. Not one person on Facebook. I had to check the trending topics on Twitter in order to find some traces of victory. It was at this point that something really started to hit home. Something about my place on social media which worries me. I'm living in an echo chamber.
 
 People like people like themselves. Social networks, such as Twitter and Facebook only further encourage this behaviour. Personally, I don't follow people I disagree with. I certainly don't "Like" people on Facebook whose views are at odds with mine. The consequence is that my feeds are full of people like me. People living and working in technology. People who live in London (a place where people voted to remain) or other affluent parts of the UK. Or affluent parts of the US. People who have been largely (luckily) unaffected by the 2008 financial crisis. People who are not on benefits. People who have not been affected by George Osbourne's austerity budgets. People who shop at Waitrose. People who are not “old”.
 
-{{< tweet user="tnewtondunn" id="746323670570831873" >}}
+{{< x user="tnewtondunn" id="746323670570831873" >}}
 
 I'm not even connected to my local community, as my local council decided to vote in favour of Leave 54% to 46%.
 
@@ -55,7 +55,7 @@ For Facebook, it’s a tough decision to make. Am I going to continue to open th
 
 I’m not the only one feeling this way. As I travelled back home, a tweet popped up in my stream from someone who’s come to the same realisation.
 
-{{< tweet user="steiny" id="746352702284771329" >}}
+{{< x user="steiny" id="746352702284771329" >}}
 
 So, where next?
 

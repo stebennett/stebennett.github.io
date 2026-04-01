@@ -8,7 +8,7 @@ title = "Finding great places to work"
 
 +++
 
-{{< tweet user="stevebennett" id="832566920012521473" >}}
+{{< x user="stevebennett" id="832566920012521473" >}}
 
 Early today I tweeted this, and I thought it was worth giving a little more detail as to what was underlying this pithy sound-bite.
 

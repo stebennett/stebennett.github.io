@@ -11,7 +11,7 @@ This week, after over 3 and a half years, I left Alfresco. The decision to leave
 
 My connection with Alfresco goes back further than the recent years working for the company. Back in 2010, while working at Yell, I was part of a team tasked with creating a knowledge base based on (the now deprecated) Alfresco Web Content Management. It's fair to say that 10 years ago, I wasn't exactly enamoured with the software.
 
-{{< tweet user="stevebennett" id="25905859588" >}}
+{{< x user="stevebennett" id="25905859588" >}}
 
 Although we made it to production, the project wasn't a success. Eventually, we dropped the feature from Yell.com and shut down the services.
 
@@ -23,7 +23,7 @@ I'd been following Alfresco throughout the previous 5 years - as an open-source 
 
 The next three years were a whirlwind of development and learning. I attempted to move my thinking from delivery of evergreen e-commerce websites to enterprise on-premise application software. It was a steep learning curve and I'm grateful to all those on the team that helped me along the way.
 
-{{< tweet user="stevebennett" id="888050037347024896" >}}
+{{< x user="stevebennett" id="888050037347024896" >}}
 
 Over this time, I moved from Engineering Manager to VP of Engineering for the Platform Engineering team. I worked with this team to increase the cadence of releases, increasing automation and reducing the amount of time spent on manual release validation.
 

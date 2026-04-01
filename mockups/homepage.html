@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en" class="">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Steve Bennett - Engineering Leader</title>
+  <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            accent: {
+              DEFAULT: '#0d9373',
+              hover: '#0b7d62',
+              light: '#e6f7f2',
+              dark: '#134e3f',
+            },
+          },
+          fontFamily: {
+            sans: ['Inter', 'system-ui', '-apple-system', 'sans-serif'],
+            serif: ['Georgia', 'Cambria', 'Times New Roman', 'serif'],
+            mono: ['JetBrains Mono', 'SF Mono', 'Consolas', 'monospace'],
+          },
+        },
+      },
+    }
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Newsreader:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+  <script>
+    (function() {
+      var theme = localStorage.getItem('theme');
+      if (theme === 'dark' || (!theme && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+        document.documentElement.classList.add('dark');
+      }
+    })();
+  </script>
+  <style>
+    .font-editorial { font-family: 'Newsreader', Georgia, serif; }
+  </style>
+</head>
+<body class="bg-stone-50 dark:bg-zinc-950 text-zinc-900 dark:text-zinc-100 font-sans antialiased transition-colors duration-200">
+
+  <!-- Accent top bar -->
+  <div class="h-1 bg-accent"></div>
+
+  <!-- Header -->
+  <header class="bg-white dark:bg-zinc-900 border-b border-zinc-200 dark:border-zinc-800">
+    <div class="max-w-6xl mx-auto px-6 py-5 flex items-center justify-between">
+      <a href="homepage.html" class="text-xl font-bold tracking-tight text-zinc-900 dark:text-zinc-100 hover:text-accent dark:hover:text-accent transition-colors">
+        Steve Bennett
+      </a>
+      <div class="flex items-center gap-6">
+        <nav class="flex items-center gap-6 text-sm font-medium">
+          <a href="#" class="text-zinc-500 dark:text-zinc-400 hover:text-accent dark:hover:text-accent transition-colors">Archive</a>
+          <a href="#" class="text-zinc-500 dark:text-zinc-400 hover:text-accent dark:hover:text-accent transition-colors">Notes</a>
+          <a href="#" class="text-zinc-500 dark:text-zinc-400 hover:text-accent dark:hover:text-accent transition-colors">About</a>
+          <a href="#" class="text-zinc-400 dark:text-zinc-500 hover:text-accent dark:hover:text-accent transition-colors" aria-label="RSS Feed">
+            <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M12.75 19.5v-.75a7.5 7.5 0 00-7.5-7.5H4.5m0-6.75h.75c7.87 0 14.25 6.38 14.25 14.25v.75M6 18.75a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" /></svg>
+          </a>
+        </nav>
+        <button id="theme-toggle" class="text-zinc-400 dark:text-zinc-500 hover:text-accent dark:hover:text-accent transition-colors" aria-label="Toggle dark mode">
+          <svg class="hidden dark:block w-5 h-5" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v2.25m6.364.386l-1.591 1.591M21 12h-2.25m-.386 6.364l-1.591-1.591M12 18.75V21m-4.773-4.227l-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0z" />
+          </svg>
+          <svg class="block dark:hidden w-5 h-5" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M21.752 15.002A9.718 9.718 0 0118 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 003 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 009.002-5.998z" />
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main content with sidebar -->
+  <div class="max-w-6xl mx-auto px-6 py-12">
+    <div class="lg:grid lg:grid-cols-[1fr_280px] lg:gap-16">
+
+      <!-- Articles column -->
+      <main>
+
+        <!-- Article 1 (full) -->
+        <article class="mb-16">
+          <header class="mb-6">
+            <a href="#" class="inline-block text-xs font-semibold uppercase tracking-widest text-accent hover:text-accent-hover transition-colors mb-3">Process</a>
+            <h2 class="font-editorial text-3xl sm:text-4xl font-semibold leading-tight">
+              <a href="article.html" class="text-zinc-900 dark:text-zinc-100 hover:text-accent dark:hover:text-accent transition-colors">You Don't Need a Bug Tracker</a>
+            </h2>
+            <div class="flex items-center gap-3 text-sm text-zinc-400 dark:text-zinc-500 mt-3">
+              <time datetime="2024-10-14">14 October 2024</time>
+              <span class="text-accent/40">&bull;</span>
+              <span>8 min read</span>
+            </div>
+          </header>
+          <div class="prose prose-zinc dark:prose-invert prose-lg font-editorial prose-a:text-accent prose-a:no-underline hover:prose-a:underline prose-blockquote:border-accent prose-blockquote:not-italic prose-p:leading-relaxed prose-headings:font-sans prose-headings:tracking-tight prose-code:before:content-[''] prose-code:after:content-[''] prose-code:bg-zinc-100 prose-code:dark:bg-zinc-800 prose-code:px-1.5 prose-code:py-0.5 prose-code:rounded prose-code:text-sm prose-code:font-mono prose-pre:bg-zinc-50 prose-pre:dark:bg-zinc-900 prose-pre:border prose-pre:border-zinc-200 prose-pre:dark:border-zinc-800 prose-img:rounded-lg">
+            <p>I've been thinking a lot about how engineering teams track bugs, and I've come to a conclusion that might seem controversial: most teams don't actually need a dedicated bug tracker. What they need is a better process.</p>
+
+            <h2>The Problem with Bug Trackers</h2>
+
+            <p>Bug trackers are where bugs go to die. Every team I've worked with has accumulated a growing backlog of bugs that nobody ever looks at. The list grows and grows, becoming a source of guilt rather than a useful tool.</p>
+
+            <p>Consider this: if you have 200 open bugs in your tracker, how many of them are still relevant? How many are duplicates? How many have already been fixed by other changes? In my experience, fewer than 20% of a stale bug backlog contains actionable items.</p>
+
+            <blockquote><p>The best bug tracking system is one where bugs don't accumulate in the first place.</p></blockquote>
+
+            <h2>An Alternative Approach</h2>
+
+            <p>Instead of tracking every bug in a dedicated system, consider this approach:</p>
+
+            <ol>
+              <li><strong>Fix it now</strong> &mdash; If a bug is reported and it's small, fix it immediately. Don't create a ticket. Don't add it to a sprint. Just fix it.</li>
+              <li><strong>Fix it next</strong> &mdash; If it's too large to fix immediately, make it the next thing you work on. No tracker needed.</li>
+              <li><strong>Accept it</strong> &mdash; If it's not worth fixing now or next, it's probably not worth tracking either. Accept it as a known limitation.</li>
+            </ol>
+
+            <p>This is a simplified version of the approach, but the principle holds: <strong>reduce the distance between discovery and resolution</strong>.</p>
+
+            <h2>What This Looks Like in Practice</h2>
+
+            <p>When a team member finds a bug, the conversation might look something like this in your <code>#engineering</code> Slack channel:</p>
+
+            <pre><code class="language-text">@sarah: Found a bug - the date picker doesn't handle timezones
+         correctly when the user is in UTC+12
+
+@tom:    That's in the DateSelector component, right? I can fix
+         that this afternoon. It's a one-liner.
+
+@sarah:  Perfect, thanks! I'll verify the fix when it's deployed.</code></pre>
+
+            <p>No ticket created. No priority assigned. No sprint planning required. The bug was found, communicated, and fixed within hours.</p>
+
+            <h2>When You Do Need a Bug Tracker</h2>
+
+            <p>There are situations where bug tracking makes sense:</p>
+
+            <ul>
+              <li>Regulatory or compliance requirements demand an audit trail</li>
+              <li>You're building a product where external customers report bugs through a formal channel</li>
+              <li>Your team is distributed across many timezones and async communication is the norm</li>
+            </ul>
+
+            <p>But even in these cases, the goal should be to minimise the time a bug spends in the tracker. Track it, yes &mdash; but don't let it sit there for months.</p>
+
+            <h3>The Metrics That Matter</h3>
+
+            <p>If you do use a bug tracker, the most important metric isn't how many bugs you've logged &mdash; it's how quickly you resolve them. A team that finds and fixes 10 bugs a week with a median resolution time of 2 hours is far healthier than a team that logs 50 bugs a week and resolves them in 3 months.</p>
+
+            <h2>Conclusion</h2>
+
+            <p>The best teams I've worked with don't have elaborate bug tracking processes. They have a culture of ownership, where finding a bug means fixing a bug. The tracker, if it exists at all, is a thin layer &mdash; not a bureaucratic bottleneck.</p>
+
+            <p>Start by asking your team: <em>how many of our open bugs are actually going to get fixed?</em> If the honest answer is "not many", it might be time to rethink your approach.</p>
+          </div>
+        </article>
+
+        <hr class="border-zinc-200 dark:border-zinc-800 mb-16">
+
+        <!-- Article 2 (full) -->
+        <article class="mb-16">
+          <header class="mb-6">
+            <a href="#" class="inline-block text-xs font-semibold uppercase tracking-widest text-accent hover:text-accent-hover transition-colors mb-3">Leadership</a>
+            <h2 class="font-editorial text-3xl sm:text-4xl font-semibold leading-tight">
+              <a href="#" class="text-zinc-900 dark:text-zinc-100 hover:text-accent dark:hover:text-accent transition-colors">Engineering Strategy and How to Communicate It</a>
+            </h2>
+            <div class="flex items-center gap-3 text-sm text-zinc-400 dark:text-zinc-500 mt-3">
+              <time datetime="2024-07-05">5 July 2024</time>
+              <span class="text-accent/40">&bull;</span>
+              <span>12 min read</span>
+            </div>
+          </header>
+          <div class="prose prose-zinc dark:prose-invert prose-lg font-editorial prose-a:text-accent prose-a:no-underline hover:prose-a:underline prose-blockquote:border-accent prose-blockquote:not-italic prose-p:leading-relaxed prose-headings:font-sans prose-headings:tracking-tight">
+            <p>One of the most common questions I get from engineering leaders is: "How do I create an engineering strategy?" But the better question is usually: "How do I communicate the strategy I already have?"</p>
+
+            <p>Most engineering leaders have a strategy, even if they haven't written it down. They make daily decisions about where to invest engineering time, which technologies to adopt, and how to structure their teams. The problem isn't a lack of strategy &mdash; it's a lack of clarity.</p>
+
+            <h2>What Makes a Good Strategy</h2>
+
+            <p>I've found that the most effective engineering strategies share a few characteristics. They start with the business context: what is the company trying to achieve, and what role does engineering play in that? They're honest about trade-offs: you can't optimise for speed, quality, and scope simultaneously. And they're concrete enough that an engineer can read them and know what to do differently tomorrow.</p>
+
+            <blockquote><p>A strategy that doesn't change behaviour isn't a strategy &mdash; it's a poster.</p></blockquote>
+
+            <h2>A Simple Framework</h2>
+
+            <p>Here's a framework I've used across several organisations. It starts with three questions: Where are we now? Where do we need to be? What are the most important moves to get there? Each question deserves no more than a page of writing. If you can't fit it on a page, you haven't been ruthless enough about prioritisation.</p>
+
+            <p>The "where are we now" section should be brutally honest. If your deployment pipeline takes 4 hours and breaks twice a week, say that. If your team has a 30% attrition rate, say that. The strategy only works if it starts from reality.</p>
+
+            <p>The "where do we need to be" section should connect to business outcomes, not technical wish lists. "We need to migrate to microservices" is not a strategy. "We need to reduce time-to-market for new features from 6 weeks to 2 weeks" is a strategy that might or might not involve microservices.</p>
+
+            <h2>Communication Is the Hard Part</h2>
+
+            <p>Writing the strategy is the easy part. Getting people to read it, understand it, and act on it is where most leaders fail. Here's what I've found works:</p>
+
+            <ol>
+              <li><strong>Write it down</strong> &mdash; A strategy that only exists in your head isn't a strategy. Write it in a document that anyone in the organisation can find and read.</li>
+              <li><strong>Keep it short</strong> &mdash; Nobody reads a 40-page strategy document. Three pages is ideal. Five is the maximum.</li>
+              <li><strong>Repeat yourself</strong> &mdash; You'll need to reference your strategy in every planning session, every architecture review, and every hiring conversation. If you're tired of repeating it, you're probably almost saying it enough.</li>
+            </ol>
+
+            <p>The best engineering strategies I've seen are living documents that get updated quarterly. They're referenced in decision-making. They're short enough that new joiners can read them in their first week. And they're honest enough that people trust them.</p>
+          </div>
+        </article>
+
+        <hr class="border-zinc-200 dark:border-zinc-800 mb-16">
+
+        <!-- Article 3 (full) -->
+        <article class="mb-16">
+          <header class="mb-6">
+            <a href="#" class="inline-block text-xs font-semibold uppercase tracking-widest text-accent hover:text-accent-hover transition-colors mb-3">Engineering</a>
+            <h2 class="font-editorial text-3xl sm:text-4xl font-semibold leading-tight">
+              <a href="#" class="text-zinc-900 dark:text-zinc-100 hover:text-accent dark:hover:text-accent transition-colors">Thinking about Senior Engineers</a>
+            </h2>
+            <div class="flex items-center gap-3 text-sm text-zinc-400 dark:text-zinc-500 mt-3">
+              <time datetime="2024-06-21">21 June 2024</time>
+              <span class="text-accent/40">&bull;</span>
+              <span>6 min read</span>
+            </div>
+          </header>
+          <div class="prose prose-zinc dark:prose-invert prose-lg font-editorial prose-a:text-accent prose-a:no-underline hover:prose-a:underline prose-blockquote:border-accent prose-blockquote:not-italic prose-p:leading-relaxed prose-headings:font-sans prose-headings:tracking-tight">
+            <p>There's a conversation I keep having with engineering managers: "What does it mean to be a senior engineer?" It's a question that sounds simple but reveals a surprising amount of disagreement when you dig into it.</p>
+
+            <p>For some, senior means years of experience. For others, it's about technical depth. And for a growing number of organisations, it's about impact &mdash; the ability to take an ambiguous problem and drive it to a clear outcome without constant direction.</p>
+
+            <h2>Impact Over Output</h2>
+
+            <p>I think the impact framing is the most useful one, but it comes with a nuance that's often missed. Impact at the senior level isn't just about writing better code or designing better systems. It's about making the people around you more effective. A senior engineer who ships brilliant code but leaves chaos in their wake isn't truly senior &mdash; they're a talented individual contributor with a misleading title.</p>
+
+            <p>The senior engineers I've valued most share a common trait: they make their teams better. They do this by writing clear documentation, by giving thoughtful code reviews, by mentoring junior engineers, and by making technical decisions that consider the whole team's ability to maintain and extend the codebase.</p>
+
+            <blockquote><p>A senior engineer's most important output isn't code &mdash; it's clarity.</p></blockquote>
+
+            <h2>The Multiplier Effect</h2>
+
+            <p>There's a useful mental model here: think of senior engineers as multipliers rather than adders. An adder contributes their own work. A multiplier makes everyone else's work better. The best senior engineers do both, but when forced to choose, they lean towards multiplying.</p>
+
+            <p>This has implications for how we evaluate performance. If you're only measuring lines of code, tickets closed, or features shipped, you're measuring addition. You're missing the engineer who spent three days writing a design document that saved the team three months of rework. You're missing the engineer who refactored the test suite so that everyone else could ship with more confidence.</p>
+
+            <h2>What to Look For</h2>
+
+            <p>When I'm assessing whether someone is operating at a senior level, I look for a few things:</p>
+
+            <ul>
+              <li><strong>Scope</strong> &mdash; Are they thinking beyond their immediate task? Do they consider the system-level implications of their work?</li>
+              <li><strong>Communication</strong> &mdash; Can they explain their technical decisions to non-technical stakeholders? Do they write clearly?</li>
+              <li><strong>Ownership</strong> &mdash; When something goes wrong, do they step up or step back? Do they follow through on the unglamorous work?</li>
+              <li><strong>Judgement</strong> &mdash; Do they know when to invest in quality and when to ship fast? Can they navigate ambiguity without freezing?</li>
+            </ul>
+
+            <p>None of these require a specific number of years of experience. I've seen engineers demonstrate these qualities in their third year, and I've seen engineers with fifteen years who haven't developed them. Seniority is earned through behaviour, not tenure.</p>
+          </div>
+        </article>
+
+        <hr class="border-zinc-200 dark:border-zinc-800 mb-16">
+
+        <!-- Article 4 (full) -->
+        <article class="mb-16">
+          <header class="mb-6">
+            <a href="#" class="inline-block text-xs font-semibold uppercase tracking-widest text-accent hover:text-accent-hover transition-colors mb-3">Leadership</a>
+            <h2 class="font-editorial text-3xl sm:text-4xl font-semibold leading-tight">
+              <a href="#" class="text-zinc-900 dark:text-zinc-100 hover:text-accent dark:hover:text-accent transition-colors">Owning Your Mistakes</a>
+            </h2>
+            <div class="flex items-center gap-3 text-sm text-zinc-400 dark:text-zinc-500 mt-3">
+              <time datetime="2023-11-08">8 November 2023</time>
+              <span class="text-accent/40">&bull;</span>
+              <span>5 min read</span>
+            </div>
+          </header>
+          <div class="prose prose-zinc dark:prose-invert prose-lg font-editorial prose-a:text-accent prose-a:no-underline hover:prose-a:underline prose-blockquote:border-accent prose-blockquote:not-italic prose-p:leading-relaxed prose-headings:font-sans prose-headings:tracking-tight">
+            <p>Early in my management career, I made a decision that cost my team three weeks of work. I'd pushed for a technical approach that I was convinced was the right one, overriding the concerns of a more experienced engineer on the team. When it became clear the approach wasn't going to work, I had a choice: quietly pivot and hope nobody noticed, or own the mistake publicly.</p>
+
+            <p>I chose to own it. In our next team meeting, I said: "I made a bad call. I should have listened more carefully to the concerns that were raised. Here's what I've learned, and here's what we're going to do differently."</p>
+
+            <h2>Why It Matters</h2>
+
+            <p>The response surprised me. Rather than losing confidence in my leadership, the team seemed to gain it. By admitting the mistake, I'd demonstrated something more important than being right: I'd shown that I valued the team's input and that I was capable of learning.</p>
+
+            <blockquote><p>Trust isn't built by being right all the time. It's built by being honest when you're wrong.</p></blockquote>
+
+            <p>This experience taught me something I now consider foundational to good leadership: your team already knows when you've made a mistake. The only question is whether you're going to acknowledge it or pretend it didn't happen. Pretending erodes trust. Acknowledging builds it.</p>
+
+            <h2>A Framework for Owning Mistakes</h2>
+
+            <p>Over the years, I've developed a simple approach:</p>
+
+            <ol>
+              <li><strong>Name it</strong> &mdash; Be specific about what went wrong and your role in it. Vague admissions ("mistakes were made") don't build trust.</li>
+              <li><strong>Explain what you've learned</strong> &mdash; This shows the mistake has value and won't be repeated.</li>
+              <li><strong>Describe what changes</strong> &mdash; Concrete actions are more credible than abstract commitments.</li>
+              <li><strong>Move on</strong> &mdash; Don't over-apologise or dwell. Acknowledge, learn, act, continue.</li>
+            </ol>
+
+            <p>The hardest part is the first step. Naming the mistake specifically, without hedging or deflecting, requires genuine vulnerability. But it's also what makes it meaningful.</p>
+          </div>
+        </article>
+
+        <hr class="border-zinc-200 dark:border-zinc-800 mb-16">
+
+        <!-- Article 5 (full) -->
+        <article class="mb-16">
+          <header class="mb-6">
+            <a href="#" class="inline-block text-xs font-semibold uppercase tracking-widest text-accent hover:text-accent-hover transition-colors mb-3">Career</a>
+            <h2 class="font-editorial text-3xl sm:text-4xl font-semibold leading-tight">
+              <a href="#" class="text-zinc-900 dark:text-zinc-100 hover:text-accent dark:hover:text-accent transition-colors">Career Paths and Circles</a>
+            </h2>
+            <div class="flex items-center gap-3 text-sm text-zinc-400 dark:text-zinc-500 mt-3">
+              <time datetime="2023-09-12">12 September 2023</time>
+              <span class="text-accent/40">&bull;</span>
+              <span>10 min read</span>
+            </div>
+          </header>
+          <div class="prose prose-zinc dark:prose-invert prose-lg font-editorial prose-a:text-accent prose-a:no-underline hover:prose-a:underline prose-blockquote:border-accent prose-blockquote:not-italic prose-p:leading-relaxed prose-headings:font-sans prose-headings:tracking-tight">
+            <p>We talk about career "paths" and career "ladders" as if careers move in straight lines. Up or forward, always progressing, always advancing. But in my experience, careers look more like expanding circles than straight lines.</p>
+
+            <h2>The Ladder Myth</h2>
+
+            <p>The ladder metaphor is seductive because it's simple. Junior to mid to senior to staff to principal. Engineer to manager to director to VP. Each rung is clearly defined, and you always know where you stand.</p>
+
+            <p>But ladders are a poor model for how careers actually work. They imply that the only meaningful movement is upward, that staying at the same level means stagnation, and that the path is the same for everyone. None of these things are true.</p>
+
+            <h2>Circles of Influence</h2>
+
+            <p>I prefer to think of career growth as expanding circles of influence. Early in your career, your circle is small: you influence the code you write and the immediate team you work with. As you grow, your circle expands. You influence technical decisions across teams, then across the organisation, then across the industry.</p>
+
+            <blockquote><p>Growth isn't about climbing higher. It's about reaching further.</p></blockquote>
+
+            <p>This model has several advantages. First, it doesn't require a title change to represent growth. An engineer who starts influencing architectural decisions across multiple teams has genuinely grown, even if their title hasn't changed. Second, it accommodates lateral movement. Moving from engineering to product management isn't a step sideways &mdash; it's expanding your circle in a different direction.</p>
+
+            <h2>Practical Implications</h2>
+
+            <p>If you're a manager, this model changes how you think about career conversations. Instead of asking "what's your next role?", ask "where do you want to expand your influence?" Instead of mapping people to a rigid ladder, help them identify the circles they want to grow into.</p>
+
+            <p>And if you're an individual contributor thinking about your own career: stop worrying about the next rung. Start thinking about the problems you want to solve and the people you want to reach. The titles will follow, but the circles are what matter.</p>
+          </div>
+        </article>
+
+      </main>
+
+      <!-- Sidebar -->
+      <aside class="hidden lg:block">
+        <div class="space-y-8">
+
+          <!-- Short bio -->
+          <div class="rounded-xl border border-zinc-200 dark:border-zinc-800 bg-white dark:bg-zinc-900 p-6">
+            <div class="flex items-center gap-4 mb-4">
+              <img src="../static/images/avatar.png" alt="Steve Bennett" class="w-14 h-14 rounded-full ring-2 ring-accent/20">
+              <div>
+                <p class="font-semibold text-sm">Steve Bennett</p>
+                <p class="text-xs text-accent font-medium mt-0.5">Engineering Leader</p>
+              </div>
+            </div>
+            <p class="text-sm text-zinc-600 dark:text-zinc-400 leading-relaxed">
+              Engineering leader with over 15 years of experience in engineering management, with a background in eCommerce, enterprise services, and fintech.
+            </p>
+            <a href="#" class="inline-flex items-center gap-1 mt-3 text-xs font-medium text-accent hover:text-accent-hover transition-colors">
+              More about Steve
+              <svg class="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" /></svg>
+            </a>
+          </div>
+
+          <!-- Slack community ad -->
+          <div class="rounded-xl border border-zinc-200 dark:border-zinc-800 bg-white dark:bg-zinc-900 p-6 shadow-sm">
+            <div class="flex items-center gap-3 mb-4">
+              <img src="../static/images/slack.png" alt="Slack" class="w-10 h-10 rounded-lg">
+              <p class="text-sm font-semibold text-zinc-900 dark:text-zinc-100">Engineering Managers Slack</p>
+            </div>
+            <p class="text-sm text-zinc-600 dark:text-zinc-400 leading-relaxed mb-4">
+              An open community for Engineering Managers, Team Leads, Tech Leads, and anyone managing people in technology.
+            </p>
+            <a href="https://engmanagers.github.io" class="block w-full text-center text-sm font-medium px-4 py-2.5 rounded-lg bg-accent text-white hover:bg-accent-hover transition-colors">
+              Join the community
+            </a>
+          </div>
+
+        </div>
+      </aside>
+
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="bg-white dark:bg-zinc-900 border-t border-zinc-200 dark:border-zinc-800">
+    <div class="max-w-6xl mx-auto px-6 py-8 flex flex-col sm:flex-row items-center justify-between gap-4">
+      <p class="text-sm text-zinc-400 dark:text-zinc-500">&copy; 2024 Steve Bennett</p>
+      <div class="flex items-center gap-4">
+        <a href="https://github.com/stebennett" class="text-zinc-400 hover:text-accent dark:hover:text-accent transition-colors" aria-label="GitHub">
+          <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+        </a>
+        <a href="https://www.linkedin.com/in/stebennett/" class="text-zinc-400 hover:text-accent dark:hover:text-accent transition-colors" aria-label="LinkedIn">
+          <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+        </a>
+        <a href="https://mastodon.me.uk/@steve" class="text-zinc-400 hover:text-accent dark:hover:text-accent transition-colors" rel="me" aria-label="Mastodon">
+          <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M23.268 5.313c-.35-2.578-2.617-4.61-5.304-5.004C17.51.242 15.792 0 11.813 0h-.03c-3.98 0-4.835.242-5.288.309C3.882.692 1.496 2.518.917 5.127.64 6.412.61 7.837.661 9.143c.074 1.874.088 3.745.26 5.611.118 1.24.325 2.47.62 3.68.55 2.237 2.777 4.098 4.96 4.857 2.336.792 4.849.923 7.256.38.265-.061.527-.132.786-.213.585-.184 1.27-.39 1.774-.753a.057.057 0 00.023-.043v-1.809a.052.052 0 00-.02-.041.053.053 0 00-.046-.01 20.282 20.282 0 01-4.709.547c-2.73 0-3.463-1.284-3.674-1.818a5.593 5.593 0 01-.319-1.433.053.053 0 01.066-.054 19.648 19.648 0 004.636.536c.562 0 1.124-.02 1.669-.06 1.826-.134 3.554-.395 5.292-1.068 0 0 .246-.07.437-.2 0 0 .042-.027.064-.084 1.61-5.075 1.455-10.005 1.27-11.584z"/><path d="M19.903 7.515v6.293H17.33V7.684c0-1.317-.558-1.987-1.673-1.987-1.233 0-1.852.794-1.852 2.363v3.342h-2.557V8.06c0-1.569-.619-2.363-1.852-2.363-1.115 0-1.673.67-1.673 1.987v6.124H5.15V7.515c0-1.316.337-2.363 1.015-3.14.7-.778 1.616-1.176 2.753-1.176 1.315 0 2.312.506 2.979 1.518l.642 1.076.641-1.076c.667-1.012 1.664-1.518 2.979-1.518 1.137 0 2.053.398 2.753 1.176.678.777 1.015 1.824 1.015 3.14z" fill="white"/></svg>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    const toggle = document.getElementById('theme-toggle');
+    toggle.addEventListener('click', function() {
+      const isDark = document.documentElement.classList.toggle('dark');
+      localStorage.setItem('theme', isDark ? 'dark' : 'light');
+    });
+    window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', function(e) {
+      if (!localStorage.getItem('theme')) {
+        document.documentElement.classList.toggle('dark', e.matches);
+      }
+    });
+  </script>
+</body>
+</html>

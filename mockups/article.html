@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en" class="">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>You Don't Need a Bug Tracker - Steve Bennett</title>
+  <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            accent: {
+              DEFAULT: '#0d9373',
+              hover: '#0b7d62',
+              light: '#e6f7f2',
+              dark: '#134e3f',
+            },
+          },
+          fontFamily: {
+            sans: ['Inter', 'system-ui', '-apple-system', 'sans-serif'],
+            serif: ['Georgia', 'Cambria', 'Times New Roman', 'serif'],
+            mono: ['JetBrains Mono', 'SF Mono', 'Consolas', 'monospace'],
+          },
+        },
+      },
+    }
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Newsreader:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+  <script>
+    (function() {
+      var theme = localStorage.getItem('theme');
+      if (theme === 'dark' || (!theme && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+        document.documentElement.classList.add('dark');
+      }
+    })();
+  </script>
+  <style>
+    .font-editorial { font-family: 'Newsreader', Georgia, serif; }
+  </style>
+</head>
+<body class="bg-stone-50 dark:bg-zinc-950 text-zinc-900 dark:text-zinc-100 font-sans antialiased transition-colors duration-200">
+
+  <!-- Accent top bar -->
+  <div class="h-1 bg-accent"></div>
+
+  <!-- Header -->
+  <header class="bg-white dark:bg-zinc-900 border-b border-zinc-200 dark:border-zinc-800">
+    <div class="max-w-6xl mx-auto px-6 py-5 flex items-center justify-between">
+      <a href="homepage.html" class="text-xl font-bold tracking-tight text-zinc-900 dark:text-zinc-100 hover:text-accent dark:hover:text-accent transition-colors">
+        Steve Bennett
+      </a>
+      <div class="flex items-center gap-6">
+        <nav class="flex items-center gap-6 text-sm font-medium">
+          <a href="#" class="text-zinc-500 dark:text-zinc-400 hover:text-accent dark:hover:text-accent transition-colors">Archive</a>
+          <a href="#" class="text-zinc-500 dark:text-zinc-400 hover:text-accent dark:hover:text-accent transition-colors">Notes</a>
+          <a href="#" class="text-zinc-500 dark:text-zinc-400 hover:text-accent dark:hover:text-accent transition-colors">About</a>
+          <a href="#" class="text-zinc-400 dark:text-zinc-500 hover:text-accent dark:hover:text-accent transition-colors" aria-label="RSS Feed">
+            <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M12.75 19.5v-.75a7.5 7.5 0 00-7.5-7.5H4.5m0-6.75h.75c7.87 0 14.25 6.38 14.25 14.25v.75M6 18.75a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" /></svg>
+          </a>
+        </nav>
+        <button id="theme-toggle" class="text-zinc-400 dark:text-zinc-500 hover:text-accent dark:hover:text-accent transition-colors" aria-label="Toggle dark mode">
+          <svg class="hidden dark:block w-5 h-5" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v2.25m6.364.386l-1.591 1.591M21 12h-2.25m-.386 6.364l-1.591-1.591M12 18.75V21m-4.773-4.227l-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0z" />
+          </svg>
+          <svg class="block dark:hidden w-5 h-5" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M21.752 15.002A9.718 9.718 0 0118 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 003 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 009.002-5.998z" />
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main content with sidebar -->
+  <div class="max-w-6xl mx-auto px-6 py-12">
+    <div class="lg:grid lg:grid-cols-[1fr_280px] lg:gap-16">
+
+      <!-- Article column -->
+      <main>
+        <article>
+
+          <!-- Article Header -->
+          <header class="mb-10">
+            <a href="#" class="inline-block text-xs font-semibold uppercase tracking-widest text-accent hover:text-accent-hover transition-colors mb-3">Process</a>
+            <h1 class="font-editorial text-4xl sm:text-5xl font-semibold tracking-tight leading-tight">You Don't Need a Bug Tracker</h1>
+            <div class="flex items-center gap-3 mt-5 text-sm text-zinc-400 dark:text-zinc-500">
+              <time datetime="2024-10-14">14 October 2024</time>
+              <span class="text-accent/40">&bull;</span>
+              <span>8 min read</span>
+              <span class="text-accent/40">&bull;</span>
+              <span>1,542 words</span>
+            </div>
+          </header>
+
+          <!-- Article Content -->
+          <div class="prose prose-zinc dark:prose-invert prose-lg font-editorial prose-headings:font-sans prose-headings:tracking-tight prose-a:text-accent prose-a:no-underline hover:prose-a:underline prose-code:before:content-[''] prose-code:after:content-[''] prose-code:bg-zinc-100 prose-code:dark:bg-zinc-800 prose-code:px-1.5 prose-code:py-0.5 prose-code:rounded prose-code:text-sm prose-code:font-mono prose-pre:bg-zinc-50 prose-pre:dark:bg-zinc-900 prose-pre:border prose-pre:border-zinc-200 prose-pre:dark:border-zinc-800 prose-blockquote:border-accent prose-blockquote:not-italic prose-img:rounded-lg prose-p:leading-relaxed">
+
+            <p>I've been thinking a lot about how engineering teams track bugs, and I've come to a conclusion that might seem controversial: most teams don't actually need a dedicated bug tracker. What they need is a better process.</p>
+
+            <h2 id="the-problem">The Problem with Bug Trackers</h2>
+
+            <p>Bug trackers are where bugs go to die. Every team I've worked with has accumulated a growing backlog of bugs that nobody ever looks at. The list grows and grows, becoming a source of guilt rather than a useful tool.</p>
+
+            <p>Consider this: if you have 200 open bugs in your tracker, how many of them are still relevant? How many are duplicates? How many have already been fixed by other changes? In my experience, fewer than 20% of a stale bug backlog contains actionable items.</p>
+
+            <blockquote>
+              <p>The best bug tracking system is one where bugs don't accumulate in the first place.</p>
+            </blockquote>
+
+            <h2 id="alternative">An Alternative Approach</h2>
+
+            <p>Instead of tracking every bug in a dedicated system, consider this approach:</p>
+
+            <ol>
+              <li><strong>Fix it now</strong> &mdash; If a bug is reported and it's small, fix it immediately. Don't create a ticket. Don't add it to a sprint. Just fix it.</li>
+              <li><strong>Fix it next</strong> &mdash; If it's too large to fix immediately, make it the next thing you work on. No tracker needed.</li>
+              <li><strong>Accept it</strong> &mdash; If it's not worth fixing now or next, it's probably not worth tracking either. Accept it as a known limitation.</li>
+            </ol>
+
+            <p>This is a simplified version of the approach, but the principle holds: <strong>reduce the distance between discovery and resolution</strong>.</p>
+
+            <h2 id="code-example">What This Looks Like in Practice</h2>
+
+            <p>When a team member finds a bug, the conversation might look something like this in your <code>#engineering</code> Slack channel:</p>
+
+            <pre><code class="language-text">@sarah: Found a bug - the date picker doesn't handle timezones
+         correctly when the user is in UTC+12
+
+@tom:    That's in the DateSelector component, right? I can fix
+         that this afternoon. It's a one-liner.
+
+@sarah:  Perfect, thanks! I'll verify the fix when it's deployed.</code></pre>
+
+            <p>No ticket created. No priority assigned. No sprint planning required. The bug was found, communicated, and fixed within hours.</p>
+
+            <h2 id="when-you-do-need-one">When You Do Need a Bug Tracker</h2>
+
+            <p>There are situations where bug tracking makes sense:</p>
+
+            <ul>
+              <li>Regulatory or compliance requirements demand an audit trail</li>
+              <li>You're building a product where external customers report bugs through a formal channel</li>
+              <li>Your team is distributed across many timezones and async communication is the norm</li>
+            </ul>
+
+            <p>But even in these cases, the goal should be to minimise the time a bug spends in the tracker. Track it, yes &mdash; but don't let it sit there for months.</p>
+
+            <h3 id="metrics">The Metrics That Matter</h3>
+
+            <p>If you do use a bug tracker, the most important metric isn't how many bugs you've logged &mdash; it's how quickly you resolve them. A team that finds and fixes 10 bugs a week with a median resolution time of 2 hours is far healthier than a team that logs 50 bugs a week and resolves them in 3 months.</p>
+
+            <p>Here's a simple dashboard you might use:</p>
+
+            <table>
+              <thead>
+                <tr>
+                  <th>Metric</th>
+                  <th>Target</th>
+                  <th>Current</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Median time to resolution</td>
+                  <td>&lt; 4 hours</td>
+                  <td>2.3 hours</td>
+                </tr>
+                <tr>
+                  <td>Open bugs older than 7 days</td>
+                  <td>0</td>
+                  <td>3</td>
+                </tr>
+                <tr>
+                  <td>Bugs resolved this week</td>
+                  <td>&mdash;</td>
+                  <td>12</td>
+                </tr>
+              </tbody>
+            </table>
+
+            <h2 id="conclusion">Conclusion</h2>
+
+            <p>The best teams I've worked with don't have elaborate bug tracking processes. They have a culture of ownership, where finding a bug means fixing a bug. The tracker, if it exists at all, is a thin layer &mdash; not a bureaucratic bottleneck.</p>
+
+            <p>Start by asking your team: <em>how many of our open bugs are actually going to get fixed?</em> If the honest answer is "not many", it might be time to rethink your approach.</p>
+
+          </div>
+
+          <!-- Tags -->
+          <div class="mt-12 pt-8 border-t border-zinc-200 dark:border-zinc-800">
+            <div class="flex flex-wrap gap-2">
+              <a href="#" class="inline-block px-3 py-1 text-xs font-medium rounded-full bg-accent-light dark:bg-accent-dark/30 text-accent hover:bg-accent/10 dark:hover:bg-accent-dark/50 transition-colors">engineering</a>
+              <a href="#" class="inline-block px-3 py-1 text-xs font-medium rounded-full bg-accent-light dark:bg-accent-dark/30 text-accent hover:bg-accent/10 dark:hover:bg-accent-dark/50 transition-colors">process</a>
+              <a href="#" class="inline-block px-3 py-1 text-xs font-medium rounded-full bg-accent-light dark:bg-accent-dark/30 text-accent hover:bg-accent/10 dark:hover:bg-accent-dark/50 transition-colors">management</a>
+            </div>
+          </div>
+
+          <!-- Author bio -->
+          <div class="mt-12 pt-8 border-t border-zinc-200 dark:border-zinc-800">
+            <div class="flex items-start gap-5 p-6 rounded-xl bg-white dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-800">
+              <img src="../static/images/avatar.png" alt="Steve Bennett" class="w-14 h-14 rounded-full ring-2 ring-accent/20 flex-shrink-0">
+              <div>
+                <p class="font-semibold text-sm">Steve Bennett</p>
+                <p class="text-xs text-accent font-medium mt-0.5">Engineering Leader</p>
+                <p class="text-sm text-zinc-500 dark:text-zinc-400 mt-2 leading-relaxed">Engineering leader with over 15 years of experience in engineering management, with a background in eCommerce, enterprise services, and fintech.</p>
+                <a href="#" class="inline-flex items-center gap-1 mt-3 text-xs font-medium text-accent hover:text-accent-hover transition-colors">
+                  More about Steve
+                  <svg class="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" /></svg>
+                </a>
+              </div>
+            </div>
+          </div>
+
+        </article>
+      </main>
+
+      <!-- Sidebar -->
+      <aside class="hidden lg:block">
+        <div class="space-y-8">
+
+          <!-- Short bio -->
+          <div class="rounded-xl border border-zinc-200 dark:border-zinc-800 bg-white dark:bg-zinc-900 p-6">
+            <div class="flex items-center gap-4 mb-4">
+              <img src="../static/images/avatar.png" alt="Steve Bennett" class="w-14 h-14 rounded-full ring-2 ring-accent/20">
+              <div>
+                <p class="font-semibold text-sm">Steve Bennett</p>
+                <p class="text-xs text-accent font-medium mt-0.5">Engineering Leader</p>
+              </div>
+            </div>
+            <p class="text-sm text-zinc-600 dark:text-zinc-400 leading-relaxed">
+              Engineering leader with over 15 years of experience in engineering management, with a background in eCommerce, enterprise services, and fintech.
+            </p>
+            <a href="#" class="inline-flex items-center gap-1 mt-3 text-xs font-medium text-accent hover:text-accent-hover transition-colors">
+              More about Steve
+              <svg class="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" /></svg>
+            </a>
+          </div>
+
+          <!-- Slack community ad -->
+          <div class="rounded-xl border border-zinc-200 dark:border-zinc-800 bg-white dark:bg-zinc-900 p-6 shadow-sm">
+            <div class="flex items-center gap-3 mb-4">
+              <img src="../static/images/slack.png" alt="Slack" class="w-10 h-10 rounded-lg">
+              <p class="text-sm font-semibold text-zinc-900 dark:text-zinc-100">Engineering Managers Slack</p>
+            </div>
+            <p class="text-sm text-zinc-600 dark:text-zinc-400 leading-relaxed mb-4">
+              An open community for Engineering Managers, Team Leads, Tech Leads, and anyone managing people in technology.
+            </p>
+            <a href="https://engmanagers.github.io" class="block w-full text-center text-sm font-medium px-4 py-2.5 rounded-lg bg-accent text-white hover:bg-accent-hover transition-colors">
+              Join the community
+            </a>
+          </div>
+
+        </div>
+      </aside>
+
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="bg-white dark:bg-zinc-900 border-t border-zinc-200 dark:border-zinc-800">
+    <div class="max-w-6xl mx-auto px-6 py-8 flex flex-col sm:flex-row items-center justify-between gap-4">
+      <p class="text-sm text-zinc-400 dark:text-zinc-500">&copy; 2024 Steve Bennett</p>
+      <div class="flex items-center gap-4">
+        <a href="https://github.com/stebennett" class="text-zinc-400 hover:text-accent dark:hover:text-accent transition-colors" aria-label="GitHub">
+          <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+        </a>
+        <a href="https://www.linkedin.com/in/stebennett/" class="text-zinc-400 hover:text-accent dark:hover:text-accent transition-colors" aria-label="LinkedIn">
+          <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+        </a>
+        <a href="https://mastodon.me.uk/@steve" class="text-zinc-400 hover:text-accent dark:hover:text-accent transition-colors" rel="me" aria-label="Mastodon">
+          <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M23.268 5.313c-.35-2.578-2.617-4.61-5.304-5.004C17.51.242 15.792 0 11.813 0h-.03c-3.98 0-4.835.242-5.288.309C3.882.692 1.496 2.518.917 5.127.64 6.412.61 7.837.661 9.143c.074 1.874.088 3.745.26 5.611.118 1.24.325 2.47.62 3.68.55 2.237 2.777 4.098 4.96 4.857 2.336.792 4.849.923 7.256.38.265-.061.527-.132.786-.213.585-.184 1.27-.39 1.774-.753a.057.057 0 00.023-.043v-1.809a.052.052 0 00-.02-.041.053.053 0 00-.046-.01 20.282 20.282 0 01-4.709.547c-2.73 0-3.463-1.284-3.674-1.818a5.593 5.593 0 01-.319-1.433.053.053 0 01.066-.054 19.648 19.648 0 004.636.536c.562 0 1.124-.02 1.669-.06 1.826-.134 3.554-.395 5.292-1.068 0 0 .246-.07.437-.2 0 0 .042-.027.064-.084 1.61-5.075 1.455-10.005 1.27-11.584z"/><path d="M19.903 7.515v6.293H17.33V7.684c0-1.317-.558-1.987-1.673-1.987-1.233 0-1.852.794-1.852 2.363v3.342h-2.557V8.06c0-1.569-.619-2.363-1.852-2.363-1.115 0-1.673.67-1.673 1.987v6.124H5.15V7.515c0-1.316.337-2.363 1.015-3.14.7-.778 1.616-1.176 2.753-1.176 1.315 0 2.312.506 2.979 1.518l.642 1.076.641-1.076c.667-1.012 1.664-1.518 2.979-1.518 1.137 0 2.053.398 2.753 1.176.678.777 1.015 1.824 1.015 3.14z" fill="white"/></svg>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    const toggle = document.getElementById('theme-toggle');
+    toggle.addEventListener('click', function() {
+      const isDark = document.documentElement.classList.toggle('dark');
+      localStorage.setItem('theme', isDark ? 'dark' : 'light');
+    });
+    window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', function(e) {
+      if (!localStorage.getItem('theme')) {
+        document.documentElement.classList.toggle('dark', e.matches);
+      }
+    });
+  </script>
+</body>
+</html>

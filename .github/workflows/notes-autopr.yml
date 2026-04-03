@@ -69,7 +69,7 @@ jobs:
         - name: Create Pull Request
           if: steps.check_changes.outputs.has_changes == 'true'
           id: create_pr
-          uses: actions/github-script@v7
+          uses: actions/github-script@v8
           with:
             github-token: ${{ secrets.GH_AUTH_TOKEN }}
             script: |
@@ -93,7 +93,7 @@ jobs:
         - name: Merge Pull Request
           if: steps.check_changes.outputs.has_changes == 'true'
           id: merge_pr
-          uses: actions/github-script@v7
+          uses: actions/github-script@v8
           with:
             github-token: ${{ secrets.GH_AUTH_TOKEN }}
             script: |
@@ -109,7 +109,7 @@ jobs:
               return pr;
         - name: Delete Branch
           if: steps.check_changes.outputs.has_changes == 'true'
-          uses: actions/github-script@v7
+          uses: actions/github-script@v8
           with:
             github-token: ${{secrets.GH_AUTH_TOKEN}}
             script: |

@@ -1,0 +1,49 @@
+name: PR Build Validation
+
+on:
+  pull_request:
+    branches: ["main", "beta"]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: "pr-${{ github.event.pull_request.number }}"
+  cancel-in-progress: true
+
+defaults:
+  run:
+    shell: bash
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    env:
+      HUGO_VERSION: 0.159.1
+    steps:
+      - name: Install Hugo CLI
+        run: |
+          wget -O ${{ runner.temp }}/hugo.deb https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb \
+          && sudo dpkg -i ${{ runner.temp }}/hugo.deb
+      - name: Checkout
+        uses: actions/checkout@v6
+        with:
+          submodules: recursive
+      - name: Update .netrc
+        run: |
+          echo "machine github.com login ${{ secrets.GH_AUTH_TOKEN }} password x-oauth-basic" > $HOME/.netrc
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: 'npm'
+      - name: Install npm dependencies
+        run: npm ci
+      - name: Build with Hugo
+        env:
+          HUGO_ENVIRONMENT: production
+          HUGO_ENV: production
+        run: |
+          hugo \
+            --logLevel info \
+            --minify

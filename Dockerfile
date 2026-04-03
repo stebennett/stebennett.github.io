@@ -1,10 +1,7 @@
 FROM golang:1.23-alpine
 
-# Arguments
-ARG DART_SASS_VERSION=1.98.0
-
-# install git
-RUN apk add --no-cache git curl
+# install git and nodejs
+RUN apk add --no-cache git curl nodejs npm
 
 # install hugo
 RUN apk add --no-cache --repository=https://dl-cdn.alpinelinux.org/alpine/edge/community hugo
@@ -12,12 +9,12 @@ RUN apk add --no-cache --repository=https://dl-cdn.alpinelinux.org/alpine/edge/c
 # test go
 RUN go version
 
-# install dart-sass
-RUN curl -sSL https://github.com/sass/dart-sass/releases/download/${DART_SASS_VERSION}/dart-sass-${DART_SASS_VERSION}-linux-x64.tar.gz | tar -xz -C /opt && \
-  ln -s /opt/dart-sass/sass /usr/local/bin/sass
-
 # set the workdir
 WORKDIR /site
+
+# install npm dependencies for PostCSS/Tailwind
+COPY package*.json ./
+RUN npm ci
 
 # expose the default port
 EXPOSE 1313

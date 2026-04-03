@@ -1,0 +1,35 @@
+{{ define "main" }}
+  <article>
+    <header class="mb-10">
+      {{ with .Params.category }}
+        <a href="{{ "/tags/" | relURL }}{{ . | urlize }}/" class="inline-block text-xs font-semibold uppercase tracking-widest text-accent hover:text-accent-hover transition-colors mb-3">{{ . }}</a>
+      {{ end }}
+      <h1 class="font-editorial text-4xl sm:text-5xl font-semibold tracking-tight leading-tight">{{ .Title }}</h1>
+      <div class="flex items-center gap-3 mt-5 text-sm text-zinc-400 dark:text-zinc-500">
+        <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2 January 2006" }}</time>
+        <span class="text-accent/40">&bull;</span>
+        <span>{{ .ReadingTime }} min read</span>
+        <span class="text-accent/40">&bull;</span>
+        <span>{{ lang.FormatNumber 0 .WordCount }} words</span>
+      </div>
+    </header>
+
+    <div class="prose prose-zinc dark:prose-invert prose-lg font-editorial prose-headings:font-sans prose-headings:tracking-tight prose-a:text-accent prose-a:no-underline hover:prose-a:underline prose-blockquote:border-accent prose-blockquote:not-italic prose-p:leading-relaxed prose-code:before:content-[''] prose-code:after:content-[''] prose-code:bg-zinc-100 prose-code:dark:bg-zinc-800 prose-code:px-1.5 prose-code:py-0.5 prose-code:rounded prose-code:text-sm prose-code:font-mono prose-pre:bg-zinc-50 prose-pre:dark:bg-zinc-900 prose-pre:border prose-pre:border-zinc-200 prose-pre:dark:border-zinc-800 prose-img:rounded-lg">
+      {{ .Content }}
+    </div>
+
+    {{ with .Params.tags }}
+      <div class="mt-12 pt-8 border-t border-zinc-200 dark:border-zinc-800">
+        <div class="flex flex-wrap gap-2">
+          {{ range . }}
+            <a href="{{ "/tags/" | relURL }}{{ . | urlize }}/" class="inline-block px-3 py-1 text-xs font-medium rounded-full bg-accent-light dark:bg-accent-dark/30 text-accent hover:bg-accent/10 dark:hover:bg-accent-dark/50 transition-colors">{{ . }}</a>
+          {{ end }}
+        </div>
+      </div>
+    {{ end }}
+
+    <div class="mt-12 pt-8 border-t border-zinc-200 dark:border-zinc-800">
+      {{ partial "author-bio.html" . }}
+    </div>
+  </article>
+{{ end }}

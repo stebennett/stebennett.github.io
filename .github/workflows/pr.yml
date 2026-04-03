@@ -1,14 +1,14 @@
-name: Deploy Hugo site to Cloudflare Pages (Beta)
+name: PR Build Validation
 
 on:
-  push:
-    branches: ["beta"]
+  pull_request:
+    branches: ["main", "beta"]
 
-  workflow_dispatch:
+permissions:
+  contents: read
 
-# Allow one concurrent deployment
 concurrency:
-  group: "beta-pages"
+  group: "pr-${{ github.event.pull_request.number }}"
   cancel-in-progress: true
 
 defaults:
@@ -16,7 +16,7 @@ defaults:
     shell: bash
 
 jobs:
-  build-and-deploy:
+  build:
     runs-on: ubuntu-latest
     env:
       HUGO_VERSION: 0.159.1
@@ -46,13 +46,4 @@ jobs:
         run: |
           hugo \
             --logLevel info \
-            --minify \
-            --baseURL "https://beta.stevebennett.co/"
-      - name: Deploy to Cloudflare Pages
-        uses: cloudflare/pages-action@v1
-        with:
-          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          projectName: stevebennett-beta
-          directory: ./public
-          branch: main
+            --minify

@@ -31,7 +31,7 @@ jobs:
           submodules: recursive
       - name: Configure git auth
         run: |
-          git config --global url."https://${{ secrets.GH_AUTH_TOKEN }}@github.com/".insteadOf "https://github.com/"
+          git config --global url."https://x-access-token:${{ secrets.GH_AUTH_TOKEN }}@github.com/".insteadOf "https://github.com/"
       - name: Build with Hugo
         env:
           HUGO_ENVIRONMENT: production

@@ -40,3 +40,7 @@ notes = "Short Notes and Thoughts"
 [[permalinks]]
   notes = "/notes/:year/:month/:day/:slug/"
   posts = "/posts/:slug/"
+
+[build]
+  [build.buildStats]
+    enable = true

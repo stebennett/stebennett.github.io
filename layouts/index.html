@@ -1,0 +1,9 @@
+{{ define "main" }}
+<div style="background-color: #ff6b00; color: white; text-align: center; padding: 12px 16px; font-weight: bold; font-size: 14px;">
+  This is the beta version of stevebennett.co. For the live site, visit <a href="https://stevebennett.co" style="color: white; text-decoration: underline;">stevebennett.co</a>.
+</div>
+{{ partial "profile.html" (dict "page" $ "mainContent" true) }}
+{{ partial "vertical-tabs.html" . }}
+{{ partial "two-box.html" . }}
+{{ partial "contact.html"  . }}
+{{ end }}

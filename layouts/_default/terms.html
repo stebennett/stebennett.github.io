@@ -1,0 +1,12 @@
+{{ define "main" }}
+  <h1 class="text-3xl font-bold tracking-tight mb-12">{{ .Title }}</h1>
+
+  <div class="flex flex-wrap gap-2">
+    {{ range .Pages }}
+      <a href="{{ .RelPermalink }}" class="inline-flex items-center gap-1.5 px-3 py-1.5 text-sm font-medium rounded-full bg-accent-light dark:bg-accent-dark/30 text-accent hover:bg-accent/10 dark:hover:bg-accent-dark/50 transition-colors">
+        {{ .Title }}
+        <span class="text-accent/60 text-xs">({{ len .Pages }})</span>
+      </a>
+    {{ end }}
+  </div>
+{{ end }}

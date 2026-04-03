@@ -1,4 +1,5 @@
 @import "tailwindcss";
+@plugin "@tailwindcss/typography";
 
 /* Google Fonts */
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Newsreader:ital,wght@0,400;0,600;1,400&display=swap");
@@ -27,7 +28,7 @@
 }
 
 .kg-bookmark-container {
-  @apply flex no-underline text-inherit;
+  @apply flex no-underline text-inherit hover:bg-zinc-50 dark:hover:bg-zinc-800 transition-colors;
 }
 
 .kg-bookmark-content {
@@ -81,5 +82,5 @@
 }
 
 .kg-gallery-image img {
-  @apply w-full h-full object-cover rounded;
+  @apply w-full h-full object-cover rounded-lg;
 }

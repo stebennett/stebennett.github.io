@@ -1,4 +1,4 @@
-name: PR Build Validation
+name: PR Build & Preview
 
 on:
   pull_request:
@@ -6,6 +6,7 @@ on:
 
 permissions:
   contents: read
+  pull-requests: write
 
 concurrency:
   group: "pr-${{ github.event.pull_request.number }}"
@@ -16,7 +17,7 @@ defaults:
     shell: bash
 
 jobs:
-  build:
+  build-and-preview:
     runs-on: ubuntu-latest
     env:
       HUGO_VERSION: 0.159.1
@@ -47,3 +48,18 @@ jobs:
           hugo \
             --logLevel info \
             --minify
+      - name: Deploy preview to Cloudflare Pages
+        id: deploy
+        uses: cloudflare/pages-action@v1
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          projectName: stevebennett-beta
+          directory: ./public
+          branch: pr-${{ github.event.pull_request.number }}
+      - name: Comment preview URL on PR
+        uses: marocchino/sticky-pull-request-comment@v2
+        with:
+          header: preview-url
+          message: |
+            🔍 **Preview deployed:** ${{ steps.deploy.outputs.url }}

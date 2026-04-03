@@ -1,0 +1,28 @@
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} - {{ .Site.Title }}{{ end }}</title>
+<meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.shortBio }}{{ end }}">
+<meta name="robots" content="{{ if .Params.draft }}noindex{{ else }}index, follow{{ end }}">
+
+{{/* Hugo Pipes CSS */}}
+{{ $css := resources.Get "css/main.css" | postCSS | minify | fingerprint }}
+<link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
+
+{{/* Google Fonts preconnect */}}
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+{{/* Favicon */}}
+<link rel="icon" href="/images/favicon.ico">
+
+{{/* RSS */}}
+<link rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" href="{{ "/index.xml" | absURL }}">
+
+{{/* Open Graph & Twitter Cards */}}
+{{ template "_internal/opengraph.html" . }}
+{{ template "_internal/twitter_cards.html" . }}
+
+{{/* Google Analytics (production only) */}}
+{{ if hugo.IsProduction }}
+  {{ template "_internal/google_analytics.html" . }}
+{{ end }}

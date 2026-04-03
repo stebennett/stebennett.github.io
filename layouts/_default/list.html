@@ -1,0 +1,17 @@
+{{ define "main" }}
+  <h1 class="text-3xl font-bold tracking-tight mb-12">{{ .Title }}</h1>
+
+  {{ range .Pages.GroupByDate "2006" }}
+    <div class="mb-12">
+      <h2 class="text-xl font-bold text-zinc-900 dark:text-zinc-100 mb-6 pl-4 border-l-4 border-accent">{{ .Key }}</h2>
+      <ul class="space-y-3">
+        {{ range .Pages }}
+          <li class="flex items-baseline gap-4">
+            <time datetime="{{ .Date.Format "2006-01-02" }}" class="text-sm text-zinc-400 dark:text-zinc-500 tabular-nums shrink-0 w-28">{{ .Date.Format "2 Jan 2006" }}</time>
+            <a href="{{ .RelPermalink }}" class="text-zinc-900 dark:text-zinc-100 hover:text-accent dark:hover:text-accent transition-colors font-medium">{{ .Title }}</a>
+          </li>
+        {{ end }}
+      </ul>
+    </div>
+  {{ end }}
+{{ end }}

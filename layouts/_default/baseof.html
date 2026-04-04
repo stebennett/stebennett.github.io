@@ -26,13 +26,20 @@
   {{ partial "footer.html" . }}
 
   <script>
-    var toggle = document.getElementById('theme-toggle');
-    if (toggle) {
-      toggle.addEventListener('click', function() {
-        var isDark = document.documentElement.classList.toggle('dark');
-        localStorage.setItem('theme', isDark ? 'dark' : 'light');
+    (function() {
+      var toggle = document.getElementById('theme-toggle');
+      if (toggle) {
+        toggle.addEventListener('click', function() {
+          var isDark = document.documentElement.classList.toggle('dark');
+          localStorage.setItem('theme', isDark ? 'dark' : 'light');
+        });
+      }
+      window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', function(e) {
+        if (!localStorage.getItem('theme')) {
+          document.documentElement.classList.toggle('dark', e.matches);
+        }
       });
-    }
+    })();
   </script>
 </body>
 </html>

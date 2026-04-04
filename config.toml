@@ -7,13 +7,6 @@ googleAnalytics = 'G-9255WBFQQM'
 name = 'Steve Bennett'
 tagline = 'Engineering Leader'
 shortBio = 'Engineering leader with over 15 years of experience in engineering management, with a background in eCommerce, enterprise services, and fintech. I aim to empower teams to create innovative and scalable solutions that enhance the customer experience and drive business value.'
-tabsHeading = 'Work History'
-twoBoxHeading = 'Community'
-
-[params.contact]
-intro = "Feel free to reach out! I'll get back to you as soon as possible."
-submitJSONApiKey = 'sjk_f2c2a7aa054840d989ee477ac07701a4'
-submitJSONSubmitUrl = 'https://api.submitjson.com/v1/submit/c4mx9R5un'
 
 [params.social]
 github = 'https://github.com/stebennett'
@@ -24,21 +17,8 @@ mastodon = 'https://mastodon.me.uk/@steve'
 [params.contentTypes]
 [params.contentTypes.titles]
 posts = "Writing"
-notes = "Short Notes and Thoughts"
 
-[module]
-[[module.imports]]
-  path = 'github.com/stebennett/stevebennett-theme'
-
-[[module.imports]]
-  path = 'github.com/stebennett/notes'
-
-  [[module.imports.mounts]]
-  source = 'public_notes'
-  target = 'content/notes'
-  
 [[permalinks]]
-  notes = "/notes/:year/:month/:day/:slug/"
   posts = "/posts/:slug/"
 
 [build]

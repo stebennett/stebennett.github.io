@@ -5,6 +5,8 @@ description = ""
 draft = false
 slug = "career-development-planning-questions"
 title = "Career Development Planning Questions"
+category = "Engineering Management"
+tags = ["Engineering Management"]
 +++
 
 Part of the role of an Engineering Manager is to help others to achieve their career aspirations. However, it's not always easy for people to articulate the direction they hope their career will take them. For some, it can be difficult to describe their ideal future role, or to answer that "where will you be in 5 years time?" question.

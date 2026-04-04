@@ -5,6 +5,8 @@ description = ""
 draft = false
 slug = "micro-frustrations"
 title = "Micro-Frustrations"
+category = "Engineering Management"
+tags = ["Engineering Management"]
 +++
 
 What are the little things that annoy you in your current role?

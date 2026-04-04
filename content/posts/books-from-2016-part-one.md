@@ -5,6 +5,8 @@ description = ""
 draft = false
 slug = "books-from-2016-part-one"
 title = "Books from 2016 - Part One"
+category = "Engineering Management"
+tags = ["Engineering Management"]
 +++
 
 At the start of 2016, I made a resolution to read more. I managed to do this, and read more this year than I've been able to do in recent years. Most of my choices have been leadership or management books, or those related to sport. It's also been mostly non-fiction.

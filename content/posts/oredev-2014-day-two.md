@@ -5,6 +5,8 @@ description = ""
 draft = false
 slug = "oredev-2014-day-two"
 title = "Øredev 2014 - Day Two"
+category = "Conference Reports"
+tags = ["Conference Reports"]
 +++
 
 This is the second in a three part series giving an overview of the sessions I attended at Øredev 2014. Part one of the series can be found [here]({{< ref "/posts/oredev-2014-day-one.md" >}}).

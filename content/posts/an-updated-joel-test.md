@@ -5,6 +5,8 @@ description = ""
 draft = false
 slug = "an-updated-joel-test"
 title = "An updated Joel Test"
+category = "Software Engineering"
+tags = ["Software Engineering"]
 +++
 
 Wow.

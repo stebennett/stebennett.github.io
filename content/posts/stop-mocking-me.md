@@ -5,7 +5,8 @@ description = ""
 draft = false
 slug = "stop-mocking-me"
 title = "Stop mocking me"
-
+category = "Software Engineering"
+tags = ["Software Engineering"]
 +++
 
 Unit testing can be hard. And it gets harder when you have to test code with with external dependencies. The way you deal with this will depend on whether you are a [classical or mockist programmer](http://martinfowler.com/articles/mocksArentStubs.html#ClassicalAndMockistTesting). Most people don't exist at the extremes, but instead are somewhere along the line. This isn't a bad thing. Being pragmatic in your decisions shows that you're a [mature engineer](http://www.sbio.me/blog/2015/1/26/thinking-about-senior-engineers).

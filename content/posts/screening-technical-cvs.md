@@ -5,6 +5,8 @@ description = ""
 draft = false
 slug = "screening-technical-cvs"
 title = "Screening technical CVs"
+category = "Hiring"
+tags = ["Hiring"]
 +++
 
 Recently I've been spending a great deal of time screening technical CVs. What struck me during this process is generally how bad engineering CVs are.

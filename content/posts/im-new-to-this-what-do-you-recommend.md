@@ -5,9 +5,9 @@ date = 2020-04-21T12:42:50Z
 description = ""
 draft = false
 slug = "im-new-to-this-what-do-you-recommend"
-tags = ["newtothis"]
+tags = ["newtothis", "Engineering Management"]
 title = "I'm new to this, what do you recommend?"
-
+category = "Engineering Management"
 +++
 
 Recently I was asked what resources I would recommend for someone moving from an engineering role and taking on a management role. Many people become a manager without clear training and development plan in place from their employer.

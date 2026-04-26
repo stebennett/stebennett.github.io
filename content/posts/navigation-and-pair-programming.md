@@ -5,7 +5,8 @@ description = ""
 draft = false
 slug = "navigation-and-pair-programming"
 title = "Navigation and Pair Programming"
-
+category = "Software Engineering"
+tags = ["Software Engineering"]
 +++
 
 I’ve become a bit of a fan of pair programming over the years. I enjoy working through problems with another developer, as I find it usually leads to a deeper understanding of the problem, the domain and the improves the quality of the code that is produced. I also almost always learn something.

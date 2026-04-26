@@ -5,7 +5,8 @@ description = ""
 draft = false
 slug = "waiter-theres-test-in-my-dev-oredev-2014"
 title = "Waiter, there's test in my dev! - Øredev 2014"
-
+category = "Conference Reports"
+tags = ["Conference Reports"]
 +++
 
 This week I completed my first talk at a major developer conference, [Øredev](http://www.oredev.org/2014) in Malmö. I found it both nerve-racking and exciting in the lead up to the talk, but once I got started I soon settled in and concentrated on the content.

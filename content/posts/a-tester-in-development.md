@@ -5,6 +5,8 @@ description = ""
 draft = false
 slug = "a-tester-in-development"
 title = "A tester in development"
+category = "Software Engineering"
+tags = ["Software Engineering"]
 +++
 
 Ben has superpowers. He's no different to any of us in that way.

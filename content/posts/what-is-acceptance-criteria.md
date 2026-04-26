@@ -5,7 +5,8 @@ description = ""
 draft = false
 slug = "what-are-acceptance-criteria"
 title = "What are Acceptance Criteria?"
-
+category = "Agile"
+tags = ["Agile"]
 +++
 
 How do you know when something is "Done"?

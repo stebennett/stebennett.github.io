@@ -5,6 +5,8 @@ description = ""
 draft = false
 slug = "getting-better-feedback"
 title = "Getting better feedback"
+category = "Engineering Management"
+tags = ["Engineering Management"]
 +++
 
 In many organisations, the request for feedback comes as part of a performance review cycle. During this process, an individual will review their goals, assess their career development plan and reflect on feedback from their peers.

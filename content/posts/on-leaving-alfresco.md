@@ -5,6 +5,8 @@ description = ""
 draft = false
 slug = "on-leaving-alfresco"
 title = "On Leaving Alfresco"
+category = "Personal"
+tags = ["Personal"]
 +++
 
 This week, after over 3 and a half years, I left Alfresco. The decision to leave was a difficult one, but ultimately, it's the right move for both the company and me.

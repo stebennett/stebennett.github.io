@@ -5,6 +5,8 @@ description = ""
 draft = false
 slug = "are-you-ok"
 title = "Are you ok?"
+category = "Personal"
+tags = ["Personal"]
 +++
 
 Life is weird right now. It's like nothing I've ever experienced before and everyone reading this is likely to have undergone significant changes to the way they live, work and play.

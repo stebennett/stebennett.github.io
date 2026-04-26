@@ -5,6 +5,8 @@ description = ""
 draft = false
 slug = "books-from-2016-part-two"
 title = "Books from 2016 - Part Two"
+category = "Software Engineering"
+tags = ["Software Engineering"]
 +++
 
 This is part two of my review of books I've read in 2016. [Part One can be found here]({{< ref "/posts/books-from-2016-part-one.md" >}}).

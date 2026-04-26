@@ -5,6 +5,8 @@ description = ""
 draft = false
 slug = "living-in-the-echo-chamber"
 title = "Living in the Echo Chamber"
+category = "Personal"
+tags = ["Personal"]
 +++
 
 Yesterday was a momentous day in British history.

@@ -5,7 +5,8 @@ description = ""
 draft = false
 slug = "removing-facebook-again"
 title = "Removing Facebook (again)"
-
+category = "Personal"
+tags = ["Personal"]
 +++
 
 {{< x user="stevebennett" id="976019846889705472" >}}

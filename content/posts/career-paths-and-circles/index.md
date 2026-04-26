@@ -5,6 +5,9 @@ description = ""
 draft = false
 slug = "career-paths-and-circles"
 title = "Career Paths and Circles"
+category = "Engineering Management"
+tags = ["Engineering Management"]
+highlighted = true
 +++
 
 I’ve been spending a fair amount of time recently reworking our career paths. Our current documents are heavily based on the work by [Radford](https://radford.aon.com/), which defines 6 levels for each job family. Whilst our career path was very well defined and comprehensive, we are finding that the documentation is a little incomprehensible and causes difficulty as people try to self-assess their position on the career path.

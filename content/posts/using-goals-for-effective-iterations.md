@@ -5,7 +5,8 @@ description = ""
 draft = false
 slug = "using-goals-for-effective-iterations"
 title = "Setting goals for effective iterations"
-
+category = "Agile"
+tags = ["Agile"]
 +++
 
 All agile teams building software do it every day. The time might vary. Ours is at 9.45am. Some do it just before lunch, others at the end of the day but if you're working in an agile team, it's likely that you have a daily stand-up.

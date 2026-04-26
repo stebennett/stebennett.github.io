@@ -5,7 +5,8 @@ description = ""
 draft = false
 slug = "you-can-keep-your-bug-tracker-just-use-it-less"
 title = "You can keep your bug-tracker, just use it less!"
-
+category = "Agile"
+tags = ["Agile"]
 +++
 I recently published an article on my blog titled ["You don't need a bug tracker"]({{< ref "/posts/you-dont-need-a-bug-tracker.md" >}}). This article was also syndicated on [DZone](http://css.dzone.com/articles/you-dont-need-bug-tracker). Following the publication I received some feedback on it's contents. I'd like to take this opportunity to clear up a few things.
 

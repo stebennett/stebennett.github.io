@@ -5,6 +5,9 @@ description = ""
 draft = false
 slug = "an-api-for-teams"
 title = "An API for Teams"
+category = "Engineering Management"
+tags = ["Engineering Management"]
+highlighted = true
 +++
 
 > “In computer programming, an Application Programming Interface (API) is a set of routine definitions, protocols, and tools for building software an applications A good API makes it easier to develop a program by providing all the building blocks, which are then put together by the programmer.”

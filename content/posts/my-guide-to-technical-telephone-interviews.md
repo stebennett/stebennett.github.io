@@ -5,6 +5,8 @@ description = ""
 draft = false
 slug = "my-guide-to-technical-telephone-interviews"
 title = "My guide to technical telephone interviews"
+category = "Hiring"
+tags = ["Hiring"]
 +++
 
 Such is my life at the moment, I started writing this article on my smartphone whilst commuting home from work. The reason for this? I'm busy at the moment because my team is hiring.

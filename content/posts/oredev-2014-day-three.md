@@ -5,6 +5,8 @@ description = ""
 draft = false
 slug = "oredev-2014-day-three"
 title = "Øredev 2014 - Day Three"
+category = "Conference Reports"
+tags = ["Conference Reports"]
 +++
 
 I've finally got round to adding my notes from the final day of Øredev 2014. It's taken a little longer than I anticipated due to travel and work commitments. You can find the rest of my notes in [part one]({{< ref "/posts/oredev-2014-day-one.md" >}}) and [part two]({{< ref "/posts/oredev-2014-day-two.md" >}}).

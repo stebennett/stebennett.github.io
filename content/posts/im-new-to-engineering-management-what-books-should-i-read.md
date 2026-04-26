@@ -5,8 +5,10 @@ date = 2020-04-22T13:24:21Z
 description = ""
 draft = false
 slug = "im-new-to-engineering-management-what-books-should-i-read"
-tags = ["newtothis"]
+tags = ["newtothis", "Engineering Management"]
 title = "I'm new to Engineering Management, what books should I read?"
+category = "Engineering Management"
+highlighted = true
 +++
 
 There are so many great books that I could recommend for a new manager. Narrowing down the list has been challenging!

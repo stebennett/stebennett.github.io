@@ -1,7 +1,7 @@
 # Cloudflare Production Cutover — Design
 
 **Date:** 2026-04-27
-**Status:** Approved for planning
+**Status:** Completed 2026-04-27 (except disable-GitHub-Pages step — see plan Task 10 deferral)
 
 ## Context
 

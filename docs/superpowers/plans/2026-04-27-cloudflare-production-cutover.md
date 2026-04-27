@@ -1,6 +1,17 @@
 # Cloudflare Production Cutover Implementation Plan
 
+**Status:** Completed 2026-04-27. See "Completion Notes" below.
+
 > **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development (recommended) or superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [ ]`) syntax for tracking.
+
+## Completion Notes
+
+- **Stage 1 (Task 1):** Verified on `https://beta-preview.stevebennett-prod.pages.dev/`. ✅
+- **Stage 2 (Tasks 2–6):** PR #99 closed; PR #107 opened, squash-merged. `pages.yml` auto-merged cleanly (no conflict editor needed — Task 5 skipped). Live site verified on `stevebennett.co`. ✅
+- **Stage 3 (Tasks 7–8):** PR #108 squash-merged. Preview deploys confirmed on `stevebennett-prod` via sticky comment URL. ✅
+- **Stage 4 (Tasks 9, 11–15):** PR #109 squash-merged (`beta-pages.yml` removed). `beta` branch, `beta.stevebennett.co` DNS, `stevebennett-beta` CF project, and `beta-preview` deployments all deleted. ✅
+- **Stage 4 Task 10 — DEFERRED:** `gh api -X DELETE repos/.../pages` returns HTTP 422: "Deactivating GitHub pages for this repository is not allowed." User-page repos (`<user>.github.io`) cannot be disabled via API, and the web UI no longer offers an "Unpublish site" option. Will be addressed by renaming the repo away from `stebennett.github.io` as a follow-up.
+- **Bonus fix outside plan scope:** `www.stevebennett.co` was returning HTTP 522 — root cause was the hostname being CNAME'd to `stevebennett-prod.pages.dev` but never registered as a Custom Domain on the CF Pages project. Added during the final sweep.
 
 **Goal:** Promote the new Tailwind theme from `beta` to production at `stevebennett.co` via Cloudflare Pages, retire the `beta` infrastructure, and keep PR previews working.
 

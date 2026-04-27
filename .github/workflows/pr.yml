@@ -2,7 +2,7 @@ name: PR Build & Preview
 
 on:
   pull_request:
-    branches: ["main", "beta"]
+    branches: ["main"]
 
 permissions:
   contents: read
@@ -54,7 +54,7 @@ jobs:
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          projectName: stevebennett-beta
+          projectName: stevebennett-prod
           directory: ./public
           branch: pr-${{ github.event.pull_request.number }}
       - name: Comment preview URL on PR

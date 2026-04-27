@@ -5,7 +5,8 @@ description = ""
 draft = false
 slug = "book-review-extreme-programming-explained"
 title = "Book Review: Extreme Programming Explained"
-
+category = "Software Engineering"
+tags = ["Software Engineering"]
 +++
 
 I'm lucky enough, at least in my opinion, to work in a team that values extreme programming practices. It's not true of every team at eBay, but it's a growing trend. Extreme Programming (XP) is something I'm comfortable with, and I hope to help other teams see the benefits, and start to put some of the practices into play.

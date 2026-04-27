@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.Language.Locale | default "en-gb" }}" class="">
+<head>
+  <script>
+    (function() {
+      var theme = localStorage.getItem('theme');
+      if (theme === 'dark' || (!theme && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+        document.documentElement.classList.add('dark');
+      }
+    })();
+  </script>
+  {{ partial "head.html" . }}
+</head>
+<body class="bg-stone-50 dark:bg-zinc-950 text-zinc-900 dark:text-zinc-100 font-sans antialiased transition-colors duration-200">
+  {{ partial "header.html" . }}
+
+  <div class="max-w-6xl mx-auto px-6 py-12">
+    <div class="lg:grid lg:grid-cols-[1fr_280px] lg:gap-16">
+      <main>
+        {{ block "main" . }}{{ end }}
+      </main>
+      {{ partial "sidebar.html" . }}
+    </div>
+  </div>
+
+  {{ partial "footer.html" . }}
+
+  <script>
+    (function() {
+      var toggle = document.getElementById('theme-toggle');
+      if (toggle) {
+        toggle.addEventListener('click', function() {
+          var isDark = document.documentElement.classList.toggle('dark');
+          localStorage.setItem('theme', isDark ? 'dark' : 'light');
+        });
+      }
+      window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', function(e) {
+        if (!localStorage.getItem('theme')) {
+          document.documentElement.classList.toggle('dark', e.matches);
+        }
+      });
+    })();
+  </script>
+</body>
+</html>

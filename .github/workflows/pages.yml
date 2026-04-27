@@ -35,6 +35,13 @@ jobs:
       - name: Update .netrc
         run: |
           echo "machine github.com login ${{ secrets.GH_AUTH_TOKEN }} password x-oauth-basic" > $HOME/.netrc
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: 'npm'
+      - name: Install npm dependencies
+        run: npm ci
       - name: Build with Hugo
         env:
           HUGO_ENVIRONMENT: production

@@ -5,7 +5,8 @@ description = ""
 draft = false
 slug = "you-dont-need-a-bug-tracker"
 title = "You don't need a bug-tracker"
-
+category = "Agile"
+tags = ["Agile"]
 +++
 
 If you're writing software, chances are you use some sort of issue tracking tool. Or to be more precise, you most likely have a bug tracker. Jira, Bugzilla, heck, even an Excel spreadsheet. If you're diligent every time you find a bug you'll create a ticket in the tool. Most bug-tracking tools will guide you to add a severity and assign a priority. The aim of classifying a defect in this way is to help you know what to work on next. In most systems, the two aren't related. This means you can create defects with "Critical" severity, assigned a "Low priority".

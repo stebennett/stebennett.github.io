@@ -5,7 +5,8 @@ description = ""
 draft = false
 slug = "finding-great-places-to-work"
 title = "Finding great places to work"
-
+category = "Personal"
+tags = ["Personal"]
 +++
 
 {{< x user="stevebennett" id="832566920012521473" >}}

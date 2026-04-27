@@ -5,6 +5,9 @@ description = ""
 draft = false
 slug = "comparing-the-performance-of-agile-teams"
 title = "Comparing the performance of agile teams"
+category = "Agile"
+tags = ["Agile"]
+highlighted = true
 +++
 
 Recently I got into a conversation about measuring the performance of Engineering teams. The teams in question are following the Scrum framework and have decided to use story points for estimating the complexity of the work.

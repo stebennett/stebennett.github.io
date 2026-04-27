@@ -5,6 +5,9 @@ description = ""
 draft = false
 slug = "owning-your-mistakes"
 title = "Owning your mistakes"
+category = "Engineering Management"
+tags = ["Engineering Management"]
+highlighted = true
 +++
 
 I believe that one of the most powerful things you can do as a leader is to own your mistakes. Nobody is perfect, and therefore it’s inevitable that you will make mistakes. Often, holding a leadership or management position means that these mistakes are magnified and have a impact on many more people.

@@ -5,6 +5,8 @@ description = ""
 draft = false
 slug = "oredev-2014-day-one"
 title = "Øredev 2014 - Day One"
+category = "Conference Reports"
+tags = ["Conference Reports"]
 +++
 
 

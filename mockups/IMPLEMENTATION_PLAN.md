@@ -152,9 +152,13 @@ All under `layouts/`:
 
 ## CI Updates
 
-- `.github/workflows/pages.yml`: Add `actions/setup-node@v4` (Node 20) + `npm ci` before Hugo build
+- `.github/workflows/beta-pages.yml`: Add `actions/setup-node@v4` (Node 20) + `npm ci` before Hugo build
 - `.github/workflows/notes-autopr.yml`: Same Node.js setup if it runs Hugo builds
 - `Dockerfile`: Add `nodejs npm`, add `npm ci`, remove dart-sass
+
+## Branching Strategy
+
+All implementation work targets the **`beta`** branch. Each step below should be developed on a feature branch created from `beta` and merged via PR against `beta`. This allows previewing the new theme at `beta.stevebennett.co` before promoting to production on `main`.
 
 ## Implementation Order
 
@@ -186,10 +190,13 @@ All under `layouts/`:
 11. Shortcodes: amazon, bookmark, gallery, x, youtube all render correctly
 12. RSS feed generates at `/index.xml`
 13. `hugo --minify` production build succeeds
-14. GitHub Actions CI passes on feature branch
+14. GitHub Actions CI passes on `beta` branch and deploys to `beta.stevebennett.co`
 15. Google Analytics tag present in production
+16. Once verified on beta, merge `beta` into `main` to promote to production
 
 ## Related GitHub Issues
+
+> All PRs for these issues should target the **`beta`** branch.
 
 - #88 — Set up Tailwind CSS infrastructure
 - #89 — Create core layouts

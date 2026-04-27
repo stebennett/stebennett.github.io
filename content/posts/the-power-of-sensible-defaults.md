@@ -5,6 +5,9 @@ description = ""
 draft = false
 slug = "the-power-of-sensible-defaults"
 title = "The Power of Sensible Defaults"
+category = "Engineering Management"
+tags = ["Engineering Management"]
+highlighted = true
 +++
 
 Choosing the “best tool for the job” is a mantra that many software engineers repeat when asked to explain their choice of tool, language or framework. In some cases, this choice is right, however far too many times in my career I’ve seen “best tool for the job” loosely translate to whatever was top of Hacker News this week.

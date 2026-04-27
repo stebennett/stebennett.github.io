@@ -1,0 +1,33 @@
+{{ define "main" }}
+  {{ $highlighted := where (where .Site.RegularPages "Section" "posts") "Params.highlighted" true }}
+  {{ $posts := $highlighted }}
+  {{ if eq (len $posts) 0 }}
+    {{ $posts = first 5 (where .Site.RegularPages "Section" "posts") }}
+  {{ else }}
+    {{ $posts = first 5 (sort $posts "Date" "desc") }}
+  {{ end }}
+
+  {{ range $index, $post := $posts }}
+    {{ if gt $index 0 }}
+      <hr class="border-zinc-200 dark:border-zinc-800 mb-16">
+    {{ end }}
+    <article class="mb-16">
+      <header class="mb-6">
+        {{ with .Params.category }}
+          <a href="{{ "/tags/" | relURL }}{{ . | urlize }}/" class="inline-block text-xs font-semibold uppercase tracking-widest text-accent hover:text-accent-hover transition-colors mb-3">{{ . }}</a>
+        {{ end }}
+        <h2 class="font-editorial text-3xl sm:text-4xl font-semibold leading-tight">
+          <a href="{{ .RelPermalink }}" class="text-zinc-900 dark:text-zinc-100 hover:text-accent dark:hover:text-accent transition-colors">{{ .Title }}</a>
+        </h2>
+        <div class="flex items-center gap-3 text-sm text-zinc-400 dark:text-zinc-500 mt-3">
+          <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2 January 2006" }}</time>
+          <span class="text-accent/40">&bull;</span>
+          <span>{{ .ReadingTime }} min read</span>
+        </div>
+      </header>
+      <div class="prose prose-zinc dark:prose-invert prose-lg font-editorial prose-headings:font-sans prose-headings:tracking-tight prose-a:text-accent prose-a:no-underline hover:prose-a:underline prose-blockquote:border-accent prose-blockquote:not-italic prose-p:leading-relaxed prose-code:before:content-[''] prose-code:after:content-[''] prose-code:bg-zinc-100 prose-code:dark:bg-zinc-800 prose-code:px-1.5 prose-code:py-0.5 prose-code:rounded prose-code:text-sm prose-code:font-mono prose-pre:bg-zinc-50 prose-pre:dark:bg-zinc-900 prose-pre:border prose-pre:border-zinc-200 prose-pre:dark:border-zinc-800 prose-img:rounded-lg">
+        {{ .Content }}
+      </div>
+    </article>
+  {{ end }}
+{{ end }}

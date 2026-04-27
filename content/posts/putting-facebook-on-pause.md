@@ -5,6 +5,8 @@ description = ""
 draft = false
 slug = "putting-facebook-on-pause"
 title = "Putting Facebook on Pause"
+category = "Personal"
+tags = ["Personal"]
 +++
 
 In the week that [Facebook turned 10,](http://www.theguardian.com/technology/2014/feb/04/facebook-10-years-mark-zuckerberg) I decided to rethink my own use of the social network.

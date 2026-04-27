@@ -5,6 +5,8 @@ description = ""
 draft = false
 slug = "the-future-for-manual-testing"
 title = "The future for manual testing"
+category = "Software Engineering"
+tags = ["Software Engineering"]
 +++
 
 Is being a manual tester a dead-end career as [@jsonmez](http://www.twitter.com/jsonmez) says in his video response for Simple Programmer?

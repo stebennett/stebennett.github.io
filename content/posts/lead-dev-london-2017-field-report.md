@@ -5,6 +5,8 @@ description = ""
 draft = false
 slug = "lead-dev-london-2017-field-report"
 title = "Lead Dev London 2017 Field Report"
+category = "Conference Reports"
+tags = ["Conference Reports"]
 +++
 
 I was fortunate enough to spend the last couple of days at [Lead Developer 2017](http://2017.theleaddeveloper.com) in London. The conference has been described as a leadership and management conference dressed up as a technical conference. It’s one of my “must-attend” conferences of the year.

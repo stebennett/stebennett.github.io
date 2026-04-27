@@ -5,7 +5,9 @@ description = ""
 draft = false
 slug = "thinking-about-senior-engineers"
 title = "Thinking about Senior Engineers"
-
+category = "Software Engineering"
+tags = ["Software Engineering"]
+highlighted = true
 +++
 
 What makes a person a Senior Software Engineer? Is it their technical knowledge? The amount of languages, libraries or development techniques they know? Or maybe it's just an indicator of the number of years experience they have?

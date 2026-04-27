@@ -5,6 +5,8 @@ description = ""
 draft = false
 slug = "life-at-hibu"
 title = "Life at hibu"
+category = "Personal"
+tags = ["Personal"]
 +++
 
 This post has been sitting in my drafts folder for almost a year now, and the relaunch of my blog is a great opportunity to get it out there.

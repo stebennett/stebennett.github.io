@@ -1,8 +1,12 @@
----
-title: "Can One Team Do It All?"
-date: 2023-01-10T20:36:38Z
-draft: false
----
++++
+author = "Steve Bennett"
+date = 2023-01-10T20:36:38Z
+draft = false
+slug = "can-one-team-do-it-all"
+title = "Can One Team Do It All?"
+category = "Engineering Management"
+tags = ["Engineering Management"]
++++
 
 Once you've worked on a few different software projects, you notice that different processes tend to work better for some and not others. 
 

@@ -5,6 +5,8 @@ description = ""
 draft = false
 slug = "9-months-really"
 title = "9 months! Really?"
+category = "Personal"
+tags = ["Personal"]
 +++
 
 It's been almost nine months since my last blog entry. I've never been a prolific writer as you can see this in the gaps between posts. I think I've found the reason why.

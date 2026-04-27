@@ -5,6 +5,8 @@ description = ""
 draft = false
 slug = "developing-without-a-safety-net"
 title = "Developing without a Safety Net"
+category = "Software Engineering"
+tags = ["Software Engineering"]
 +++
 
 Recently, an article about the [changes to the development process at Yahoo](http://spectrum.ieee.org/view-from-the-valley/computing/software/yahoos-engineers-move-to-coding-without-a-net) caught my eye. In a move to improve quality, speed and efficiency, Yahoo removed the "QA Team" from their development process. According to the article, the change resulted in an increased focus on automation. Checks previously completed by "error-prone" humans were now done by code. If the checks passed, the code went live.

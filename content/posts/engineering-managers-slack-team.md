@@ -5,7 +5,8 @@ description = ""
 draft = false
 slug = "engineering-managers-slack-team"
 title = "Engineering Managers Slack Team"
-
+category = "Engineering Management"
+tags = ["Engineering Management"]
 +++
 
 ### 🗣 Calling all Engineering Managers! 🗣

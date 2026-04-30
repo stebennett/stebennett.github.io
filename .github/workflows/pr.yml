@@ -58,7 +58,7 @@ jobs:
           directory: ./public
           branch: pr-${{ github.event.pull_request.number }}
       - name: Comment preview URL on PR
-        uses: marocchino/sticky-pull-request-comment@v2
+        uses: marocchino/sticky-pull-request-comment@v3.0.4
         with:
           header: preview-url
           message: |
